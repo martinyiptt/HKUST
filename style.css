@@ -1,0 +1,818 @@
+/*  Author - Martin Yip            */
+/*           martinyiptt@gmail.com */
+/*  Date   - Nov1, 2017            */
+/*  Version 1.1                    */
+/*  Date   - Aug 28, 2017          */
+/*  Version 1.0                    */
+body {
+   margin: 0 auto;
+   background-color: #89ADCF;
+    
+}
+
+@font-face {
+	font-family: "Avenir Next Condensed";
+	src: url('fonts/AvenirNextCondensed-Medium.ttf');
+}
+
+@font-face {
+	font-family: "Bebas Neue";
+	src: url('fonts/bebas-neue-regular.ttf');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Bebas Neue";
+	src: url('fonts/bebas-neue-bold.ttf');
+	font-weight: bold;
+}
+
+
+
+.triangle-white {
+  
+  border-top-width: 20px;
+  border-top-style: solid;
+  border-top-color: transparent;
+
+  border-bottom-width: 20px;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+  
+  border-right-width: 20px;  
+  border-right-style: solid;
+  border-right-color: white;width: 20px;height: 20px;margin-top: 20px;position: absolute;top: 30px;
+}
+
+#triangle-white1{
+  right: 10px;
+  top: 100px
+}#triangle-white2 {
+  right: 22px;
+  top: 100px
+}
+#container-background{
+  height: 100%;
+  min-height: 1100px;
+  max-height: 100%;
+  margin: 0 auto;
+  position: relative;
+  width: 980px;
+  margin-top: 0px;
+  background-color: #ffffff;
+}
+#container-background a{
+  color: white;
+  font-family: "Avenir Next Condensed";
+  font-weight: 500;
+  padding-top: 5px;
+}
+#social-Link {
+  background: #0071bc;
+	height: 23px;
+	color: white;
+	padding-left: 75px;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 1px;
+	padding-top: 5px;
+	margin: 25px 0px 0px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+	width: 100%
+}
+#social-Link a {
+  position: absolute;
+  padding-top: 8px;
+}
+#img-background1{
+  position: absolute;
+left: 0px;
+right: 0px;
+top: 48px;
+height: 320px
+}
+#icon-twitter{
+position: absolute;
+right: 75px
+}
+#icon-facebook{
+  right: 50px;
+position: absolute
+}
+#icon-google-plus{
+  position: absolute;
+right: 18px
+}
+#container-info{
+  background-color: #ffffff;
+width: 265.4px;
+height: 314px;
+position: absolute;
+left: 101px;
+top: 333px;
+margin-top: 0px;
+margin-left: 0px;
+box-shadow: -2px 0px 5px rgba(170, 170, 170, 0.75)
+}
+#container-info a{
+  color: #999999;
+}
+#container-info-a {
+  top: 285px;
+  left: 175px;
+  position: absolute;
+  font-size: 10pt;
+  font-family: "Avenir Next Condensed";
+  font-weight: 400;
+  color: #888800;
+}
+#container-info-a2 {
+  top: 285px;
+  left: 45px;
+  position: absolute;
+  font-size: 10pt;
+  font-family: "Avenir Next Condensed";
+  font-weight: 400;
+  color: #0071bc;
+}
+#container-info2{
+  top: 66px;
+  position: absolute;
+  width: 205px;
+  height: 206px;
+  left: 28px;
+  right: 28px;
+  text-align: justify;
+  overflow: auto;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: normal;
+  font-size: 11pt;
+ 
+}
+#header-info{
+  position: absolute;
+  color: #0071BC;
+  width: 209px;
+  height: 41pt;
+  border-left-style: none;
+  font-family: "Avenir Next Condensed";
+  font-weight: bold;
+  font-size: 17pt;
+  top: 13px;
+  margin-left: 28px;
+  margin-right: 40px;
+  line-height: 20px;
+}
+#p-info-detail{
+  overflow: auto;
+  left: 0px;
+  position: absolute;
+}
+.p-summer-201x{
+  font-family: "Avenir Next Condensed";
+  font-weight: 500;
+  font-size: 11pt;
+  cursor:pointer;
+  letter-spacing: 1px;
+  color: #B3B3B3;
+}
+.hr-summer-201x{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 102px;
+  margin-left: 0px
+}
+#p-summer-2017{
+  color: #29ABE2;
+}
+#container-video-detail{
+  width: 264px;
+  height: 278px;
+  left: 366px;
+  top: 647px;
+  position: absolute;
+  background-color: #FFFFFF; 
+  box-shadow: 0px 5px 5px rgba(170, 170, 170, 0.75)
+}
+#container-video-detail h6{
+  top: 25px;
+  left: 25px;
+  position: absolute;
+  font-family: "Avenir Next Condensed";
+  font-weight: bold;
+  font-size: 15pt;
+  color: #999999;
+}
+#container-video-detail h4{
+  top: 50px;
+  left: 25px;
+  font-family: "Avenir Next Condensed";
+  font-weight: 500;
+  position: absolute;
+  width: 160px;
+  font-size: 30pt;
+  line-height: 35px;
+}
+#container-video-detail hr{
+ top: 170px;
+ position: absolute;
+ width: 100px;
+ left: 25px;
+ height: 2px;
+ border-color: #999999;
+
+}
+#container-video-detail p{
+ top: 205px;
+ left: 25px;
+ margin-right: 80px;
+ position: absolute;
+ font-family: "Avenir Next Condensed";
+  font-weight: 300;
+  font-size: 8pt;
+}
+#container-video-detail a{
+ top: 250px;
+ left: 160px;
+ position: absolute;
+ font-family: "Avenir Next Condensed";
+ font-weight: 300;
+ font-size: 10pt;
+ color: #0071bc;
+}
+
+#hr-gallery{
+	border-color: #662d91;
+	margin-top: 20px;
+	width: 90px;
+	margin-left: 0px;
+	background-color: #662d91;
+	height: 1px;
+	border-style: solid;
+	}
+#p-gallery{
+  position: absolute;
+  top: 180px;
+  margin-right: 60px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 600;
+  color: #662d91;
+  font-size: 7pt;
+  left: 20px;
+  line-height: 15px;
+
+
+}
+#container-youtube{
+  width: 265px;
+  height: 278px;
+  top: 647px;
+  left: 101px;
+  position: absolute;
+  box-shadow: -2px 5px 5px rgba(170, 170, 170, 0.75)
+}
+#container-youtube iframe{
+  position: absolute;
+  width: 265px;
+  height: 278px;
+  top: 0px;
+  left: 0px;
+}
+#container-courses{
+  position: absolute; 
+  width: 264px;
+  height: 279px;
+  left: 367px;
+  top: 368px;
+  box-shadow: inset 5px -5px 10px rgba(16, 38, 60, 0.5);
+  background-color: #007dd1;
+}
+#header-course{
+  position: absolute;
+  width: 106px;
+  height: 25px;
+  left: 25px;
+  top: 10px;
+  font-size: 18pt;
+  font-family: "Avenir Next Condensed";
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+#container-course-year{
+  position: absolute;
+  width: 142px;
+  height: 230px;
+  top: 70px;
+  left: 25px;
+  overflow: auto;
+  padding-left: 0px
+}
+#container-register{
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 700px;
+  top: 320px;
+  cursor:pointer;
+}
+#container-course-detail{
+  position: absolute;
+  width: 276px;
+  height: 279px;
+  left: 620px;
+  top: 368px;
+  background-color: #FFFFFF;
+  align-items: flex-start;
+   box-shadow: 5px 5px 5px rgba(170, 170, 170, 0.75);
+   font-family: "Avenir Next Condensed";
+  
+}
+#h5-course-date{
+  position: relative;
+  margin-bottom: 10px;
+  display: grid;
+  top: 10px;
+  font-size: 20pt;
+  font-family: "Avenir Next Condensed";
+  font-weight: bold;
+  color: #007DD1;
+}
+#p-course-length{
+  font-family: "Avenir Next Condensed";
+  font-weight: 500;
+  font-size: 11px;
+
+ 
+}
+#hr-course-detail{
+  position: relative;
+  height: 3px;
+  width: 145px;
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  
+}
+
+#h5-course-description{
+  position: relative;
+  font-size: 11pt;
+  position: absolute;
+  margin-top: 5px;
+  top: 75px;
+  font-family: "Avenir Next Condensed";
+  font-weight: 500;
+  color: #007DD1;
+}
+#container-course-detail p{
+  position: absolute;
+  font-family: "Avenir Next Condensed";
+  color: #808080;
+  display: table;
+}
+#p-course-detail0{
+  font-size: 8pt;
+  top: 105px;
+  font-weight: 500;
+  
+}
+#p-course-detail1{
+  font-size: 8pt;
+  top: 105px;
+  left: 110px;
+  font-weight: 300;
+}
+#p-course-detail2{
+  font-size: 8pt;
+  top: 120px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+#p-course-detail3{
+  font-size: 8pt;
+  top: 120px;
+  left: 110px;
+  margin-top: 5px;
+  font-weight: 300;
+}
+#p-course-detail4{
+  font-size: 8pt;
+  top: 135px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+#p-course-detail5{
+  font-size: 8pt;
+  top: 135px;
+  left: 110px;
+  margin-top: 10px;
+  font-weight: 300;
+}
+#p-course-detail6{
+  font-size: 8pt;
+  top: 150px;
+  margin-top: 13px;
+  font-weight: 500;
+}
+#p-course-detail7{
+  font-size: 8pt;
+  top: 150px;
+  left: 110px;
+  margin-top: 13px;
+  font-weight: 300;
+}
+#p-course-detail8{
+  font-size: 8pt;
+  top: 165px;
+  margin-top: 14px;
+  font-weight: 500;
+}
+#p-course-detail9{
+  font-size: 8pt;
+  top: 165px;
+  left: 110px;
+  margin-top: 14px;
+  font-weight: 300;
+}
+#p-course-detail10{
+  font-size: 8pt;
+  top: 165px;
+  left: 110px;
+  margin-top: 26px;
+  font-weight: 300;
+}
+#p-course-detail11{
+  font-size: 8pt;
+  top: 190px;
+  margin-top: 16px;
+  font-weight: 500;
+}
+#p-course-detail12{
+  font-size: 8pt;
+  top: 190px;
+  margin-top: 17px;
+  left: 110px;
+  font-weight: 300;
+}
+#p-course-detail13{
+  font-size: 8pt;
+  top: 215px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+#p-course-detail14{
+  font-size: 8pt;
+  top: 215px;
+  margin-top: 10px;
+  left: 110px;
+  font-weight: 300;
+}
+#p-course-detail15{
+  font-size: 6.5pt;
+  top: 215px;
+  margin-top: 19px;
+  left: 110px;
+  font-weight: 300;
+}
+#p-course-detail16{
+  font-size: 8pt;
+  top: 230px;
+  margin-top: 17px;
+  font-weight: 500;
+}
+#p-course-detail17{
+  font-size: 8pt;
+  top: 230px;
+  margin-top: 17px;
+  left: 110px;
+  font-weight: 300;
+}
+#container-project-detail{
+width: 795px;
+height: 279px;
+left: 101px;
+top: 647px;
+position: absolute;
+background: white;
+box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 170, 170, 0.75), -2px 0px 5px rgba(170, 170, 170, 0.75);
+}#container-project-video{  
+  width: 816px;
+  height: 600px;
+  top: 330px;
+  left: 95px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.92);
+  visibility: hidden;
+}
+#container-gallery{
+  width: 276px;
+  height: 279px;
+  left: 620px;
+  top: 646px;
+  position: absolute;
+  background-color: #F7931E;
+  box-shadow: 5px 5px 5px rgba(170, 170, 170, 0.75), inset 5px 5px 10px rgba(117, 59, 0, 0.65);
+ 
+}
+#container-gallery h6{
+  font-size: 16pt;
+  font-family: "Avenir Next Condensed";
+  font-weight: bold;
+  color: #b3d405;
+  left: 25px;
+  top: 25px;
+  position: absolute;
+  color: #988832;
+  opacity: 0.8;
+}
+#container-gallery h5{
+  left: 20px;
+  top: 50px;
+  position: absolute;
+  font-family: "Avenir Next Condensed";
+  font-weight: 500;
+  font-size: 26pt;
+  color: #662d91;
+  line-height: 45px;
+  letter-spacing: -1px;
+}
+#div-gallery0{
+  margin-top: -15px;
+  letter-spacing: 0px;
+  font-size: 28pt;
+}
+#container-gallery a{
+  top: 250px;
+  left: 200px;
+  position: absolute;
+  font-family: "Avenir Next Condensed";
+  font-weight: 300;
+  font-size: 10pt;
+  color: #662d91;
+}
+#img-ust-logo{
+  width: 120px;
+  height: 40px;
+  left: 120px;
+  top: 990px;
+  position: absolute;
+}
+#img-caa-logo{
+  width: 140px;
+  height: 37px;
+  left: 755px;
+  top: 990px;
+  position: absolute;
+}
+#p-copy-right{
+  width: 300px;
+  height: 15px;
+  left: 390px;
+  top: 1010px;
+  position: absolute;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-size: 7pt;
+}
+
+#container-gallery-year{
+  width: 276px;
+  height: 281px;
+  left: 367px;
+  top: 366px;
+  position: absolute;
+  background-color: #F7931E;
+  box-shadow: inset 5px 0px 10px rgba(117, 59, 0, 0.65);
+}
+#h6-gallery-year{
+   font-size: 16pt;
+  font-family: "Avenir Next Condensed";
+  font-weight: bold;
+  left: 25px;
+  top: 25px;
+  position: absolute;
+  color: #988832;
+  opacity: 0.8;
+}
+#h5-gallery-year{
+  left: 25px;
+  top: 50px;
+  position: absolute;
+  font-family: "Avenir Next Condensed";
+  font-weight: 500;
+  font-size: 26pt;
+  color: #662d91;
+  line-height: 45px;
+  letter-spacing: -1px;
+}
+#div-allery-year0{
+  margin-top: -15px;
+}
+#hr-allery-year0{
+  margin-top: 5px;
+  width: 90px;
+  margin-left: 0px;
+  color: #662d91;
+  background-color: #662d91;
+  height: 1px;
+  border-style: solid
+}
+#container-gallery-year1{
+  top: 150px;
+  position: absolute;
+  left: 25px;
+  overflow: auto;
+  font-family: "Avenir Next Condensed";
+  font-weight: 500;
+  color: #655500;
+  font-size: 17pt;
+  padding-left: 0px;
+}
+#hr-gallery-year{
+  border-color: #662d91;
+  margin-top: 5px;
+  width: 90px;
+  margin-left: 0px;
+  color: #662d91;
+  background-color: #662d91;
+  height: 1px;
+  border-style: solid;
+}
+#div-gallery-year{
+  top: 150px;
+  position: absolute;
+  left: 25px;
+  overflow: auto;
+  font-family: "Avenir Next Condensed";
+  font-weight: 500;
+  color: #655500;
+  font-size: 17pt;
+  padding-left: 0px;
+}
+#container-course-projects{
+  width: 276px;
+  height: 281px;
+  left: 620px;
+  top: 366px;
+  position: absolute;
+  background-color: #FFFFFF;
+  align-items: flex-start; 
+  box-shadow: 5px 5px 5px rgba(170, 170, 170, 0.75);
+}
+#container-course-projects h5{
+  font-family: "Avenir Next Condensed";
+  font-weight: 500;
+  font-size: 13pt;
+  color: #f7931e;
+  top: 30px;
+  position: absolute;
+  left: 25px;
+}
+#hr-course-projects-sub{
+  width: 90px;
+  margin-left: 0px;
+  color: #f7931e;
+  background-color: #f7931e;
+  height: 1px;
+  border-style: solid;
+  top: 53px;
+  position: absolute;
+  left: 25px;
+}
+#div-course-projects{
+  top: 80px;
+  position: absolute;
+  left: 25px;
+  overflow: auto;
+   font-family: "Avenir Next Condensed";
+  font-weight: 500;
+  color: #f7931e;
+  font-size: 13pt;
+  padding-left: 0px;
+  width: 220px;
+  height: 190px;
+}
+.project-name{
+  font-size: 13pt;
+  cursor:pointer;
+}
+.project-member{
+  color: #808080;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-size: 7pt;
+  margin-top: -5pt;
+  margin-bottom: 15pt;
+  overflow: auto;
+}
+#project-detail-name{
+  font-family: "Avenir Next Condensed";
+  font-weight: 500;
+  font-size: 24pt;
+  width: 300px;
+  color: #662d91;
+  margin-top: 30px;
+  margin-left: 28px; 
+}
+#hr-project-detail{
+  width: 150px;
+  margin-left: 28px;
+  height: 3px;
+}
+#project-detail-text{
+  width: 230px;
+  margin-left: 28px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-size: 10pt;
+  color: #999999;
+  overflow: auto;
+  height: 80px;
+}
+#p-poster-href{
+  width: 50px;
+  margin-bottom: 2px;
+  margin-left: 28px;
+  margin-top: 10px;
+  color: #552d91;
+  font-family: "Avenir Next Condensed";
+  font-weight: 500;
+}
+#project-video-link{
+  margin-left: 28px;
+  width: 50px; 
+  color: #999999;
+  cursor:pointer;
+  font-family: "Avenir Next Condensed";
+  font-weight: 500;
+  font-size: 10pt;
+
+}
+#project-detail-img{
+  left: 450px;
+  position: absolute;
+  top: 20px;
+  width: 325px;
+}
+#projects-link{
+  top: 150px;
+  position: absolute;
+  right: 50px; 
+  font-family: "Avenir Next Condensed";
+  font-weight: 500;
+  font-size: 11pt;
+  color: #662d91;
+  cursor:pointer;
+}
+#video-year{
+  width: 250px;
+  top: 30px;
+  left: 50px;
+  position: absolute;
+  color: #f7931e;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-size: 16pt;
+}
+#hr-project-video{
+  top: 50px;
+  left: 50px;
+  position: absolute;
+  width: 200px;
+  height: 1px;
+  background-color: #f7931e;
+}
+#project-video-name{
+  top: 70px;
+  position: absolute;
+  left: 50px;
+  color: #662d91;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-size: 24pt;
+}
+#project-video-members{
+  width: 300px;
+  top: 130px;
+  position: absolute;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  color:#999999;
+  left: 50px;
+  font-size: 10pt;
+}
+#close-button{
+  top: 10px;
+  position: absolute;
+  right: 20px; 
+  cursor:pointer;
+}
+#iframe-project-video{
+  left: 52px;
+  top: 190px;
+  position: absolute;
+  width: 715px;
+  height: 372px;
+}
