@@ -1,14 +1,16 @@
-/*  Author - Martin Yip            */
+/*  Web built by - Martin Yip      */
 /*           martinyiptt@gmail.com */
-/*  Date   - Nov1, 2017            */
-/*  Version 1.1                    */
+/*  Desinged by - Flavia Luck      */
+/*           flaluck07@qq.com      */
+/*  Date   - April 4, 2018         */
+/*  Version 1.3                    */
 /*  Date   - Aug 28, 2017          */
 /*  Version 1.0                    */
 body {
    margin: 0 auto;
-   background-color: #89ADCF;
+   background-color: #ffffff;
    zoom:150%;
-    
+   
 }
 
 @font-face {
@@ -61,6 +63,7 @@ body {
   width: 980px;
   margin-top: 0px;
   background-color: #ffffff;
+  box-shadow: 0px 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
 #container-background a{
   color: white;
@@ -186,8 +189,12 @@ box-shadow: -2px 0px 5px rgba(170, 170, 170, 0.75)
   margin-left: 0px
 }
 #p-summer-2017{
+  color: #B3B3B3;
+}
+#p-summer-2018{
   color: #29ABE2;
 }
+
 #container-video-detail{
   width: 264px;
   height: 278px;
@@ -260,7 +267,7 @@ box-shadow: -2px 0px 5px rgba(170, 170, 170, 0.75)
   font-family: 'Bebas Neue', sans-serif;
   font-weight: 600;
   color: #662d91;
-  font-size: 7pt;
+  font-size: 9pt;
   left: 20px;
   line-height: 15px;
 
@@ -703,8 +710,8 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
   color: #808080;
   font-family: 'Bebas Neue', sans-serif;
   font-weight: 400;
-  font-size: 7pt;
-  margin-top: -5pt;
+  font-size: 9pt;
+  margin-top: 5pt;
   margin-bottom: 15pt;
   overflow: auto;
 }
