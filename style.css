@@ -310,8 +310,8 @@ box-shadow: -2px 0px 5px rgba(170, 170, 170, 0.75)
 }
 #container-course-year{
   position: absolute;
-  width: 142px;
-  height: 230px;
+  width: 200px;
+  height: 200px;
   top: 70px;
   left: 25px;
   overflow: auto;
