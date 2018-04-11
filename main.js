@@ -506,6 +506,7 @@ function displayDefualtProject(year){
 function showProjectVideo(evt){
 
     document.getElementById("container-project-video").style.visibility = 'visible';
+
 }
 
 /*
@@ -518,7 +519,6 @@ function showProjectVideo(evt){
 function closeProjectVideo(evt){
 
     document.getElementById("container-project-video").style.visibility = 'hidden';
-    document.getElementById('iframe-project-video').src='';
 }
    
 

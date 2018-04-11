@@ -452,15 +452,22 @@ box-shadow: -2px 0px 5px rgba(170, 170, 170, 0.75)
   left: 110px;
   font-weight: 300;
 }
+#p-course-detail12-I{
+  font-size: 8pt;
+  top: 190px;
+  margin-top: 13px;
+  left: 110px;
+  font-weight: 300;
+}
 #p-course-detail13{
   font-size: 8pt;
   top: 215px;
   margin-top: 10px;
   font-weight: 500;
 }
-#p-course-detail14{
+#p-course-detail14-I{
   font-size: 8pt;
-  top: 215px;
+  top: 205px;
   margin-top: 10px;
   left: 110px;
   font-weight: 300;
@@ -468,6 +475,13 @@ box-shadow: -2px 0px 5px rgba(170, 170, 170, 0.75)
 #p-course-detail15{
   font-size: 6.5pt;
   top: 215px;
+  margin-top: 23px;
+  left: 110px;
+  font-weight: 300;
+}
+#p-course-detail15-I{
+  font-size: 8pt;
+  top: 205px;
   margin-top: 23px;
   left: 110px;
   font-weight: 300;
@@ -512,32 +526,22 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
   box-shadow: 5px 5px 5px rgba(170, 170, 170, 0.75), inset 5px 5px 10px rgba(117, 59, 0, 0.65);
  
 }
-#container-gallery h6{
-  font-size: 16pt;
-  font-family: "Avenir Next Condensed";
-  font-weight: bold;
-  color: #b3d405;
-  left: 25px;
-  top: 25px;
-  position: absolute;
-  color: #988832;
-  opacity: 0.8;
-}
+
 #container-gallery h5{
   left: 20px;
   top: 50px;
   position: absolute;
   font-family: "Avenir Next Condensed";
   font-weight: 500;
-  font-size: 26pt;
+  font-size: 32pt;
   color: #662d91;
   line-height: 45px;
   letter-spacing: -1px;
 }
 #div-gallery0{
-  margin-top: -15px;
+  margin-top: 10px;
   letter-spacing: 0px;
-  font-size: 28pt;
+  font-size: 32pt;
 }
 
 #img-ust-logo{
