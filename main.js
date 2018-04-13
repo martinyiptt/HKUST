@@ -58,62 +58,62 @@ var project20170 = new Project(2017,0,
                     "Our product is JiaJia which means “Homie” in Chinese. JiaJia is a bowl that can be used. Fingerprints of each family member are engraved on the surface of the bowl. Light will be emitted through the fingerprint on the bowl to identify the person using the bowl.  Our product connects family members in different places in an unconscious way. By doing so, we remind users the presence and importance of family."
                     ,"pic/2017/JJ.JPG",
                     "poster/2017/JJ.pdf",
-                    "https://www.youtube.com/embed/NGUZeEfARj4"); // Replace Youtube embed link here inside " ".
+                    "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
 var project20171 = new Project(2017,1,
                     "Re-light",
                     "XU, Jiayi (HKUST), YUE, Xuanwu (HKUST), DOU, Hao (CAA), MA, Le (CAA),  WU, Xiaoyuan", 
                     "The inspiration of Re-light came from light refraction. We recreate a new product based on the lampshade which could re›fract light when rotating in different angles. We chose colored film instead of a lens to limit the size of Re-light, ensuring its weight and size are within acceptable llimits. Meanwhile, we noticed the problem of light pollution a hard nut to crack so we would like to provide the general public with another solution. As an auto-controlling light windows or screen, Re-light could help relieve light pollution by changing the form of light pollution instead of trying hard to resolve the problem by tracking the source of light pollution which is comparatively more difficult to do.",
                     "pic/2017/RL.JPG",
                     "poster/2017/RL.pdf",
-                    "https://www.youtube.com/embed/NGUZeEfARj4"); // Replace Youtube embed link here inside " ".
+                    "https://www.youtube.com/embed/nRlRlfWkRDw"); // Replace Youtube embed link here inside " ".
 var project20172 = new Project(2017,2,
                     "FLOWUID",
                     "LO, Kar Lam (HKUST), ZHANG, Rong (HKUST), GONG, Qiaolin (CAA), LUCK, Flavia Rosa (CAA), ZHANG, Limin (CAA)",
                      "Flowuid is a device thought to help people improve their health during their work routine. Its concept is based on POMODORO`s time management technique that recommends a 20-8-2 minutes work session in order to avoid body and mind stress. The time consists of 20 minutes work, 8 minutes doing another task, and 2 minutes of rest.Flowuid, unlike other devices in the market, is unintrusive with an interesting yet functional design that adapts to the office work enviroment.",
                      "pic/2017/F.JPG",
                      "poster/2017/F.pdf",
-                     "https://www.youtube.com/embed/NGUZeEfARj4"); // Replace Youtube embed link here inside " ".
+                     "https://www.youtube.com/embed/wu8x_lNs0l4"); // Replace Youtube embed link here inside " ".
 var project20173 = new Project(2017,3,
                     "Holocup 智能杯子",
                     "CHAN, Hiu Nam (HKUST), WANG, Yalin (HKUST), LI, Yana (CAA), ZHAN, Jie (CAA)", 
                     "People, especially office workers and children, don’t have a regular drinking water habit for sufficient water intake, and our product aims to attract people to drink more water, making the drinking process more interesting, and hence helping people develop a good water drinking habit. In order to make the drinking process interesting, an illusion is integrated into our cup. We utilize the reflection of light, to simulate a 3D holographic image, and the animation of the various marine animal pets collected will appear in the cup. Also, we design to connect the cup with a nurturing game by using Bluetooth, making it available on every phone. The cup, equipped with a weight sensor, will automatically sense and calculate the amount of water that you drunk. The more water you drink, the more complete the pet library.",
                     "pic/2017/HC.JPG",
                     "poster/2017/HC.pdf",
-                    "https://www.youtube.com/embed/NGUZeEfARj4"); // Replace Youtube embed link here inside " ".
+                    "https://www.youtube.com/embed/SMLK5q4Xceg"); // Replace Youtube embed link here inside " ".
 var project20174 = new Project(2017,4,
                     "Cupido 丘比特",
                     "KO, Ching Yuen (HKUST), YANG, Mingyuan (HKUST), NIU, Yifan (CAA), WANG, Hongdou (CAA)","Waiting love is a pair of bracelets made for long-distance lovers. It sends a message about missing each other implicitly.",
                     "pic/2017/C.JPG",
                     "poster/2017/C.pdf",
-                    "https://www.youtube.com/embed/NGUZeEfARj4"); // Replace Youtube embed link here inside " ".
+                    "https://www.youtube.com/embed/u1kQKqdF008"); // Replace Youtube embed link here inside " ".
 var project20175 = new Project(2017,5,
                     "Wolo",
                     "TSANG, Ka Lai (HKUST), YAU, Shuk Kwan (HKUST), LIN, Rong (CAA), WEN, Simei (CAA)",
                     "The product – WOLO consists of a pair of rings, a health detecting band, and a mobile app. The health detecting band is wearable on children while the rings are for parents. The mobile app enables parents to monitor their children’s health status remotely.",
                     "pic/2017/WL.JPG",
                     "poster/2017/WL.pdf",
-                    "https://www.youtube.com/embed/NGUZeEfARj4"); // Replace Youtube embed link here inside " ".
+                    "https://www.youtube.com/embed/5h7lYT-gvao"); // Replace Youtube embed link here inside " ".
 var project20176 = new Project(2017,6,
                     "ARGUS",
                     "CAO, Shaozu (HKUST), PANG, Sui (HKUST), PENG, Bihua (CAA), ZHU, Mengyang (CAA)",
                     "We believe that people should be free from the worry of watching and navigation. We observe an increasing number of people focused on their phones when walking, and they need some warning beforehand to prevent any harm from objects on their path. Instead of advocating them not to use the phone, we take it as a fact and want to figure out the solution. That is how we end up designing a device to detect the environment, and notify the user before potential threats.",
                     "pic/2017/A.JPG",
                     "poster/2017/A.pdf",
-                    "https://www.youtube.com/embed/NGUZeEfARj4"); // Replace Youtube embed link here inside " ".
+                    "https://www.youtube.com/embed/9jHe3hox-YY"); // Replace Youtube embed link here inside " ".
 var project20177 = new Project(2017,7,
                     "Weather Box",
                     "LEE, Geun Hyang (HKUST),FAN, Ka Yi (HKUST), QIAN, Hongxiang (CAA), SHAO, Minghui (CAA), WANG, Xiangli (CAA)",
                     "Weather is important in our daily lives. It affects both our physical well-being and mental health. Research has shown that adverse and unusual weather, climate changes annoy and depress people, and may lead to Seasonal Affective Disorder(SAD). The ‘Weather Box’ fetches and visualizes weather information in real-time to an entertaining LED light show to improve working efficiency.",
                     "pic/2017/WB.JPG",
                     "poster/2017/WB.pdf",
-                    "https://www.youtube.com/embed/NGUZeEfARj4"); // Replace Youtube embed link here inside " ".
+                    "https://www.youtube.com/embed/-BOOx_qic3A"); // Replace Youtube embed link here inside " ".
 var project20178 = new Project(2017,8,
                     "SLight",
                     "LEE, Jae Hyung (HKUST), XU, Jiale (HKUST), WENG, Wuyue (CAA), XIANG, Qingqing (CAA)",
                     "SLight is a spine-like wall lamp that changes its shape according to user’s sitting posture to inform users whether they are sitting in good or bad posture. As SLight is a product that intends to remind people about their posture visually, it is designed as a human spine. Its dimension is 6 cm x 24 cm x 60 cm and it is divided into 26 layers of acrylic, similar to the number of presacral vertebrae, that can move right or left in order to simulate the spinal shape of a person sitting. Additionally, each layer contains 0.6mm thickness of cross-shaped half-transparent acrylic which has a square hole together with LED strip in the middle, 0.2mm thin black rectangular acrylic, and servo motors are placed behind and connected to some layers to generate horizontal movement. By having these structures in the design, SLight can emit light with LEDs on each layer and change the background shape through horizontal movements of the black rectangular acrylic.",
                     "pic/2017/S.JPG",
                     "poster/2017/S.pdf",
-                    "https://www.youtube.com/embed/NGUZeEfARj4"); // Replace Youtube embed link here inside " ".
+                    "https://www.youtube.com/embed/ZTadpgWDZYo"); // Replace Youtube embed link here inside " ".
 
 
 
@@ -123,7 +123,7 @@ var project20160 = new Project(2016,0,
                     "FAM-image",
                     "Hai Peng Zeng, (HKUST), Linnea Jiang (HKUST), Li Zhang, (CAA), Yin Qian Cai, (CAA)",
                     "FAM-image provides an effortless way for users to connect to other family members. It was created to help elderly people improve cognition and prevent development of physiological disorders related to their loneliness. FAM-image is a one-way mirror that takes photos upon pressing a button. A projector will display the photo on the top corner of the mirror, as images from various family members will be merged together into a family photo every time a new photo is taken. Various backgrounds and poses will also be displayed for the family to select according to their preference. Special attention was made to have a simplistic design and function for everyday usage. FAM-image是一面可以拍摄和展示照片的镜子。它的建立是为了帮助 老年人提高认识和预防与孤独相关的生理疾病的发展。 FAM-image通过Leap motion选择主题和拍摄。这个产品可以通过合并 在不同的场合拍摄的照片来创建家庭照片。创建的照片作为一个美好的回忆，增进家庭成员的联系。",
-                    "pic/2016/FI.jpg",
+                    "pic/2016/FI/FI1.jpg",
                     "poster/2016/FI.pdf",
                     "https://www.youtube.com/embed/CWFeDPG21II"); // Replace Youtube embed link here inside " ".
 
@@ -131,7 +131,7 @@ var project20161 = new Project(2016,1,
                     "回音 Echo",
                     "Au Yeung Tung Ching, Andy (HKUST), Ho Wing Sze, Wincy (HKUST), Yan Lu, Grace (CAA), Cai YuXiao, Rhett (CAA)",
                     "Echo is an acoustic device which has a sleep-aid and memory recall functions for the elderly. Its built-in music library is based on his or her preferences and interests, such as natural sounds, classical songs, etc. To use Echo, attach it to a pillow and the user can lie down comfortably then listen and relax. Echo consists of two 'ears' and a baseboard. The ears have a built-in audio system and can be adjusted to different angles manually. The baseboard under the pillow is telescopic to fit differing sizes of pillows. The all-in- one design makes Echo accessible and a convenient device even for old people. Echo是一款为老年人助眠并进行睡前记忆唤醒的听枕设备，内置的音乐，包括自然声音 ，老式音乐等具有放松或记忆唤醒作用的声音。Echo的两翼为可调节角度的的音装置， 底板可伸缩至不同长度，满足不同尺寸的枕头，按钮设置在两翼，滑动式调音整个设备一体式，可达到老人便捷操作的期望。",
-                    "pic/2016/E.jpg",
+                    "pic/2016/E/E1.jpg",
                     "poster/2016/E.pdf",
                     "https://www.youtube.com/embed/059rHuZVLi0"); // Replace Youtube embed link here inside " ".
 
@@ -139,7 +139,7 @@ var project20162 = new Project(2016,2,
                     "Tech-pathy",
                     "SHEN Qiaomu (HKUST), WANG Wenjing (HKUST), LU Jie (CAA), WU Yuanan (CAA)",
                     "Tech-pathy, a shortened form for Technology-empathy, is an effective tool to help the elderly feel and understand what their children are experiencing in their daily life by automatically receiving messages and images from related social media. The images can be automatically displayed on the screen and the message can be transformed into voice from the speaker. In the meantime, the product can automatically record how long the parent looked at the screen, and remind the child to send a short message. The goal of our product is to increase the interaction between the elderly parents and their children so that they would feel that they are always together with each other. 产品叫做Tech-pathy，是科技与同理心的结合。它可以帮助老人实时接收孩子在社网络发布的状态，并将文字转化成语音，从而增进与孩子之间的连系。同时，此产品以记录老人看照片的时间，并给他的孩子发送关心老人提醒短信。",
-                    "pic/2016/TP.jpg",
+                    "pic/2016/TP/TP1.jpg",
                     "poster/2016/TP.pdf",
                     "https://www.youtube.com/embed/ZZoPLgcDhPs"); // Replace Youtube embed link here inside " ".
 
@@ -147,7 +147,7 @@ var project20163 = new Project(2016,3,
                     "Memory Ocean 記憶海洋",
                     "Liu Xi (HKUST), Tsang Hei Tung Tiffany (HKUST), Huang Liangpeng (CAA), Weng Zhiyuan (CAA)",
                     "Our product presents a virtual underwater world filled with different types of marine life. While each fish contains a fraction of the user’s memory in the form of photo, audio or video, the user can also save his or her memory by making a recording and creating a new fish. Leap motion is used as an interaction medium. The elderly person can use his/her hands to touch any fish on the screen to play preloaded media or recordings. Through this interactive album and voice diary, we hope to stimulate the user’s cognition and train up their memory at the same time.「记忆海洋」是一个讓用家置身於海洋场景中的智能装置。只要按下石头上的按钮，记忆便能以语音的方式給记录下来。借助leap motion的动作捕捉功能，老人輕碰动画鱼激活存在裡面的記憶，包括照片和音訊。我们希望这种互动装置可帮助老人唤起过去回忆，及锻炼老人的身体灵活性和认知能力。",
-                    "pic/2016/MO.jpg",
+                    "pic/2016/MO/MO1.jpg",
                     "poster/2016/MO.pdf",
                     "https://www.youtube.com/embed/_EdvE5jzyh0"); // Replace Youtube embed link here inside " ".
 
@@ -155,7 +155,7 @@ var project20164 = new Project(2016,4,
                     "Pulling Time",
                     "PARK Jin Young (HKUST), LAM Jouq Hang Hendersen (HKUST), LV Shao Wen (CAA), SUN Liang Ao Yue (CAA)",
                     "Pulling Time is an exercise game for sedentary seniors to strengthen their upper body in a fun and interactive way. It is comprised of 3 main parts – the exercising equipment, a game screen and an android application. Combining the basic elements of a game such as competition, rewards, and different levels, we want to encourage the elderly to be more engaged and have fun – thus providing a solution for monotonous and repetitive health equipment in care homes. When the elderly are engaged in the game, information such as heartrate, gripping force and the pulling force will be sent to the mobile App, allowing the nurse to have a thorough understanding of the elderly’s health status. In this way, we take a holistic approach to care for the elderly people.",
-                    "pic/2016/PT.jpg",
+                    "pic/2016/PT/PT1.jpg",
                     "poster/2016/PT.pdf",
                     "https://www.youtube.com/embed/0Md3TjasLPQ"); // Replace Youtube embed link here inside " ".
 
@@ -163,7 +163,7 @@ var project20165 = new Project(2016,5,
                     "Feel and Discover",
                     "Wong Chun Him (HKUST), Wong Chun Him (HKUST)",
                     "Feel and discover is a series of three independent artistic works for those elderly who can’t step outside their homes to feel the natural environment. This initiative is meant to not only decorate the room, but also to use natural elements to stimulate the senses and the cognitive ability of the elderly. The project uses various types of sensors together with items they have encountered in their daily life to give people a real life experience of outside, inside their homes. Apart from the visual experience, the elderly can also touch materials such as sand, grass and cotton. At the same time, they can also experience the related music and smell. The combination of the four senses, can give the elderly a vivid and interesting experience.",
-                    "pic/2016/FD.jpg",
+                    "pic/2016/FD/FD1.jpg",
                     "poster/2016/FD.pdf",
                     "https://www.youtube.com/embed/xrwDHLuWpq8"); // Replace Youtube embed link here inside " ".
 
@@ -171,15 +171,15 @@ var project20166 = new Project(2016,6,
                     "Magic Mirror 魔鏡",
                     "Ho Chun Hin (HKUST), Wu Aoyu (HKUST), Li Mingtong (CAA), Huang Bingdie (CAA)",
                     "‘Magic mirror’ is a product that aims to connect elderly people with modern society. Nowadays, the elderly tend to distance themselves from technology. Our team combines daily activities with technology to help the elderly people use this product in a familiar way. The ‘Magic mirror’ will be placed in the elderly centre. It is a multi-functional information board with face recognition. Basic information such as time, weather, temperature and various information will be shown. Apart from the basic information, it can also provide personalized information such as information from the stock market, news and sports. By using this user-friendly mirror, it becomes easier for the elderly people to access the information they need. We believe that ‘magic mirror’ is a means to help the elderly adjust themselves easily in this fast changing society.",
-                    "pic/2016/MM.jpg",
+                    "pic/2016/MM/MM1.jpg",
                     "poster/2016/MM.pdf",
                     "https://www.youtube.com/embed/0fruWdQI2lw"); // Replace Youtube embed link here inside " ".
 
 var project20167 = new Project(2016,7,
-                    "The Moonlight Box 一个交互式的多感官媒体收集系统 ",
+                    "The Moonlight Box 一个交互式的多感官媒体收集系统",
                     "Quan Li, Candice Chow, Guoqiang Zhang, Zhiliang Liu",
                     "The Moonlight Box starts with a historical review, helping retain and arouse the dust laden memories of elderly, and integrates several fun games that aim to reduce anxiety and stress and enhance interactions between elderly. The explored memory and the performance in the interactive games will be recorded in an elaborate card with a stamp, which could be shared with friends and mailed to relatives. The immersive environment we create combines attractive gaming elements with narrative videos and audio simulations, body mobility, gesture detection and memory recall. The complete interaction is recorded and put in a ranking list hung up in Nursing Center for demonstrations and comparison. Elderly could appreciate their own performance and compete with others to promote communications and encourage others to participate to take-away their boredom. 月光宝盒以历史开启老人家尘封的记忆，以时间线的方式将历史回忆一一细数，抓取了大量的历史数据提供给老人家进行探索发现，并集成了若干趣味交互游戏，旨在帮助老人家减轻焦虑和压力，促进彼此之间的交流。探索的记忆及交互游戏的体验表现会被记录到一张精美打印的明信片，可以与其他人进行分享，或者邮寄给家人。被放置于一个沉浸式的环境中，月光宝盒集成了丰富的游戏元素，叙事化视频及音频刺激，身体运动训练，手势检测及记忆唤醒元素。所有的交互过程都会被记录，放置实体的排行榜，并悬挂在老年人活动中心进行展示。通过游戏中排行榜的设计促进老人家之间的交流。",
-                    "pic/2016/TMB.jpg",
+                    "pic/2016/TMB/TMB1.jpg",
                     "poster/2016/TMB.jpg",
                     "https://www.youtube.com/embed/8Ngwsm9o-7c"); // Replace Youtube embed link here inside " ".
 
@@ -187,7 +187,7 @@ var project20168 = new Project(2016,8,
                     "Blossom 喃喃幽启",
                     "CHEN Zhutian (HKUST), ZHAO Mingqian (HKUST), LU Ke (CAA), LI Chaoran (CAA)",
                     "The ancient Chinese philosopher and sage Confucius once told us that filial piety is never merely substantial support to the parents. It is the reverence and love to parents that distinguishes us human beings from other creatures on the earth. However, in contemporary society, children can live far away from their old parents. The lack of communication between children and parents often result in endless loneliness and depression in the elderly. In this project, we put the spot light on the spiritual support of the elderly and make an effective way to communicate with their children. Two identical vases with flowers and family photos in our asynchronous telecommunication system closely link the elderly to their children. Unread voice messages make the flower close just like a bud and only listening from the other side makes it blossom again. The fading- out figure of parents on the family photo always reminds the children to pay attention to the messages. The flower of family love will always blossom but never fade and decay! 孝，从爻从子，意在父母子女融为一体，是天地万物生生不息的规律。当下，子女 自有 了自己的生活，与父母疏远，甚至远隔重洋。很多子女注重对老年人的物质关怀， 疏忽了与老年人的沟通。因此我们聚焦老年人的精神世界，从沟通的角度解构孝道。一对传递 喃喃私语的花瓶，一株缓缓开放的花，一幅反应亲情的家庭合影，艺术与科技在此融汇贯 通，浑然一体，联结各自世界，分享彼此生活，期待一次花开。",
-                    "pic/2016/B.jpg",
+                    "pic/2016/B/B1.jpg",
                     "poster/2016/B.pdf",
                     "https://www.youtube.com/embed/Y0xhM3YfSO8"); // Replace Youtube embed link here inside " ".
 
@@ -195,7 +195,7 @@ var project20169 = new Project(2016,9,
                     "AU.TOO",
                     "CHENG Nga Wun (HKUST), LI Ming Ho (HKUST), FU Shuai (CAA), ZHAO Ming Hao (CAA)",
                     "AU.TOO is a product that focuses on elderly people who require support to be mobile, especially when they wake at night. This product is composed of a walking stick and a bracelet. Refined from the normal cane, we implemented a base with omni wheels, infra-red receivers and LED lights. Through the bracelet that has a button-switch, infra-red signals are emitted. When a signal is received, the walking stick will move in the direction of the user automatically. LED lights are on at night to help indicate the direction for users. With the especially designed handle on the walking stick, bags could be hung on it to reduce the burden of carrying. AU.TOO是一款针对有腿脚不便且有起夜习惯的老人的产品。产品以 老人用的拐杖为原型，在底部增加可移动设备，配备手环独立按键呼叫拐杖， 拐杖会自动走到使用者前。配备LED灯，帮助老人在夜间时认清方向。特殊设计 的把手，有挂袋口，可以帮助减轻手拎重物的负担。",
-                    "pic/2016/AT.jpg",
+                    "pic/2016/AT/AT1.jpg",
                     "poster/2016/AT.jpg",
                     "https://www.youtube.com/embed/sijoqZXJXrc"); // Replace Youtube embed link here inside " ".
 
@@ -616,6 +616,20 @@ function toProjectsYear(year){
 }
 
 
+//change project picture to the next one
+function showPreviousPicture(evt){
+
+
+}
+
+//change project picture to the next one
+function showNextPicture(evt){
+	var folder = "pic/" + currerntYear + "/" + document.getElementById("project-detail-name").innerHTML;
+	console.log(folder);
+
+}
+
+
 //display 2017 projects first
 function onCreate(){
     
@@ -664,6 +678,9 @@ var el = document.getElementById("project7-name").addEventListener("click", disp
 var el = document.getElementById("project8-name").addEventListener("click", displayDetail,true);
 var el = document.getElementById("project9-name").addEventListener("click", displayDetail,true);
 
+//set event lister on arrows for changing picture
+var el = document.getElementById("triangle-gray1").addEventListener("click",showPreviousPicture ,true);
+var el = document.getElementById("triangle-gray2").addEventListener("click", showNextPicture,true);
 
 
 //Set event listener on the video link under project detail. Which will be used for showing "container-project-video".

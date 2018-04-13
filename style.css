@@ -50,9 +50,34 @@ body {
 #triangle-white1{
   right: 10px;
   top: 100px
-}#triangle-white2 {
+}
+#triangle-white2 {
   right: 22px;
   top: 100px
+}
+.triangle-gray {
+  
+  border-top-width: 20px;
+  border-top-style: solid;
+  border-top-color: transparent;
+
+  border-bottom-width: 20px;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+  
+  border-right-width: 20px;  
+  border-right-style: solid;
+  border-right-color: #A9A9A9;width: 20px;height: 20px;margin-top: 20px;position: absolute;top: 30px;
+}
+
+#triangle-gray1{
+  left: 384px;
+  top: 100px
+}
+#triangle-gray2{
+  left: 760px;
+  top: 100px;
+  transform: scaleX(-1)
 }
 #container-background{
   height: 100%;
@@ -365,7 +390,7 @@ box-shadow: -2px 0px 5px rgba(170, 170, 170, 0.75)
 #container-course-detail p{
   position: absolute;
   font-family: "Avenir Next Condensed";
-  color: #808080;
+  color: #4c4c4c;
   display: table;
 }
 #p-course-detail0{
@@ -481,10 +506,10 @@ box-shadow: -2px 0px 5px rgba(170, 170, 170, 0.75)
 }
 #p-course-detail15{
   font-size: 6.5pt;
-  top: 215px;
+  top: 217px;
   margin-top: 23px;
   left: 110px;
-  font-weight: 300;
+  font-weight: bold;
 }
 #p-course-detail15-I{
   font-size: 8pt;
@@ -493,15 +518,22 @@ box-shadow: -2px 0px 5px rgba(170, 170, 170, 0.75)
   left: 110px;
   font-weight: 300;
 }
+#p-course-detail15-II{
+  font-size: 8pt;
+  top: 218px;
+  margin-top: 23px;
+  left: 110px;
+  font-weight: 300;
+}
 #p-course-detail16{
   font-size: 8pt;
-  top: 230px;
+  top: 234px;
   margin-top: 23px;
   font-weight: 500;
 }
 #p-course-detail17{
   font-size: 8pt;
-  top: 230px;
+  top: 234px;
   margin-top: 23px;
   left: 110px;
   font-weight: 300;
@@ -762,7 +794,7 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
 
 }
 #project-detail-img{
-  left: 450px;
+  left: 420px;
   position: absolute;
   top: 20px;
   width: 325px;
