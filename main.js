@@ -538,6 +538,10 @@ function changeYearColor(year){
 
     //set the selected year to white
     document.getElementById("summer" + year).style.color = "white";
+
+    //set the selected year banner
+    document.getElementById("img-background1").src = "pic/banner" + year + ".png";
+ 
     
 }
 
