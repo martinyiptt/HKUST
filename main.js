@@ -37,6 +37,10 @@ Project.prototype.update = function() {
 
 var currerntYear = 2017;
 
+// Current Project
+var project;
+
+
 //  var project201xy = new Project("201x","y"," projectName", members","detail","imgSrc","posterSrc", "videoSrc");
 //       x = year;
 //       y = project number, from 0 - 9
@@ -293,7 +297,7 @@ var project20140 = new Project(2014,0,
                     "“Invisible Hand” is an immersive, interactive audio visual installation which presents various items of news from the Internet, and in particular junk information on social media. With the help of Leap Motion, the participant is able to explore the information universe interactively. The invisible hand not only acts as the representation of the participant’s hand in this interaction process, but also offers the unique opportunity of intervention and control of the virtual environment. This provides a new perspective to speculating about online social networks.",
                     "pic/2014/IH.jpg",
                     "poster/2014/IH.jpg",
-                    "https://www.youtube.com/embed/NGUZeEfARj4"); // Replace Youtube embed link here inside " ".
+                    "https://video.ust.hk/Watch.aspx?Video=0183525DC39BC6EF"); // Replace Youtube embed link here inside " ".
 
 var project20141 = new Project(2014,1,
                     "Give me your face",
@@ -393,7 +397,7 @@ function displayProject(evt){
     var year = yearId.slice(-4,-1) + yearId.slice(-1);
     
     var projectYear = toProjectsYear(year);
-    document.getElementById("project-year").innerHTML = "Summer " + year +  " HKUST VIDEO";
+    document.getElementById("project-year").innerHTML = year +  " Projects";
     document.getElementById("video-year").innerHTML = "Summer " + year;
     changeYearColor(year);
     
@@ -414,7 +418,8 @@ function displayDetail(evt){
     var projectId  = projectEvtId.slice(7,8);
    
     //Get the specfic project as an object
-    var project = toProject(currerntYear, projectId);
+    project = toProject(currerntYear, projectId);
+    console.log(project);
 
     //Change the selected project's color
     changeProjectColor(projectId);
@@ -447,6 +452,7 @@ function displayDefualtProject(year){
 
      switch (year) {
         case '2017':
+            project = project20170;
             document.getElementById("project-detail-name").innerHTML = project20170.projectName;
     		document.getElementById("project-detail-text").innerHTML = project20170.detail;
     		document.getElementById("project-detail-img").src = project20170.imgSrc;
@@ -458,6 +464,7 @@ function displayDefualtProject(year){
             document.getElementById('project9-member').style.visibility = 'hidden';
     		break;
         case '2016':
+            project = project20160;
             document.getElementById("project-detail-name").innerHTML = project20160.projectName;
             document.getElementById("project-detail-text").innerHTML = project20160.detail;
             document.getElementById("project-detail-img").src = project20160.imgSrc;
@@ -469,6 +476,7 @@ function displayDefualtProject(year){
             document.getElementById('project9-member').style.visibility = 'visible';
             break;
         case '2015':
+            project = project20150;
             document.getElementById("project-detail-name").innerHTML = project20150.projectName;
     		document.getElementById("project-detail-text").innerHTML = project20150.detail;
     		document.getElementById("project-detail-img").src = project20150.imgSrc;
@@ -478,8 +486,10 @@ function displayDefualtProject(year){
     		document.getElementById("iframe-project-video").src = project20150.videoSrc;
     		document.getElementById("project9-name").style.visibility = 'visible';
             document.getElementById('project9-member').style.visibility = 'visible';
+            
     		break;
         case '2014':
+            project = project20140;
             document.getElementById("project-detail-name").innerHTML = project20140.projectName;
     		document.getElementById("project-detail-text").innerHTML = project20140.detail;
     		document.getElementById("project-detail-img").src = project20140.imgSrc;
@@ -518,7 +528,11 @@ function showProjectVideo(evt){
 */
 function closeProjectVideo(evt){
 
+	document.getElementById("iframe-project-video").src = "";
     document.getElementById("container-project-video").style.visibility = 'hidden';
+    document.getElementById("iframe-project-video").src = project.videoSrc;
+
+
 }
    
 
@@ -693,5 +707,7 @@ var el = document.getElementById("project-video-link").addEventListener("click",
 //Set event listener on the close button and "back to projects" under project-video container.
 var el = document.getElementById("projects-link").addEventListener("click", closeProjectVideo,true);
 var el = document.getElementById("close-button").addEventListener("click", closeProjectVideo,true);
+
+project = project20170;
     
 }
