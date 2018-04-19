@@ -72,11 +72,11 @@ body {
 
 #triangle-gray1{
   left: 384px;
-  top: 100px
+  top: 190px
 }
 #triangle-gray2{
   left: 760px;
-  top: 100px;
+  top: 190px;
   transform: scaleX(-1)
 }
 #container-background{
@@ -90,7 +90,24 @@ body {
   background-color: #eaeaea;
   box-shadow: 0px 6px 20px 0 rgba(0, 0, 0, 0.30);
 }
+#container-background-page2{
+  height: 100%;
+  min-height: 1300px;
+  max-height: 100%;
+  margin: 0 auto;
+  position: relative;
+  width: 980px;
+  margin-top: 0px;
+  background-color: #eaeaea;
+  box-shadow: 0px 6px 20px 0 rgba(0, 0, 0, 0.30);
+}
 #container-background a{
+  color: white;
+  font-family: "Avenir Next Condensed";
+  font-weight: 500;
+  padding-top: 5px;
+}
+#container-background-page2 a{
   color: white;
   font-family: "Avenir Next Condensed";
   font-weight: 500;
@@ -175,7 +192,7 @@ box-shadow: -2px 0px 5px rgba(170, 170, 170, 0.75)
   right: 28px;
   text-align: justify;
   overflow: auto;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bebas Neue';
   font-weight: normal;
   font-size: 11pt;
  
@@ -275,7 +292,7 @@ box-shadow: -2px 0px 5px rgba(170, 170, 170, 0.75)
   position: absolute;
   top: 180px;
   margin-right: 60px;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bebas Neue';
   font-weight: 500;
   color: #662d91;
   font-size: 9pt;
@@ -505,11 +522,12 @@ box-shadow: -2px 0px 5px rgba(170, 170, 170, 0.75)
   font-weight: 300;
 }
 #p-course-detail15{
-  font-size: 6.5pt;
+  font-size: 6pt;
   top: 217px;
   margin-top: 23px;
   left: 110px;
-  font-weight: bold;
+  font-weight: 300;
+  transform: scaleY(1.5);
 }
 #p-course-detail15-I{
   font-size: 8pt;
@@ -540,7 +558,7 @@ box-shadow: -2px 0px 5px rgba(170, 170, 170, 0.75)
 }
 #container-project-detail{
 width: 795px;
-height: 279px;
+height: 480px;
 left: 101px;
 top: 647px;
 position: absolute;
@@ -549,7 +567,7 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
 }#container-project-video{  
   width: 816px;
   height: 600px;
-  top: 330px;
+  top: 530px;
   left: 95px;
   position: absolute;
   background-color: rgba(255, 255, 255, 0.92);
@@ -590,11 +608,25 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
   top: 990px;
   position: absolute;
 }
+#img-ust-logo-page2{
+  width: 120px;
+  height: 40px;
+  left: 120px;
+  top: 1190px;
+  position: absolute;
+}
 #img-caa-logo{
   width: 140px;
   height: 37px;
   left: 755px;
   top: 1000px;
+  position: absolute;
+}
+#img-caa-logo-page2{
+  width: 140px;
+  height: 37px;
+  left: 755px;
+  top: 1200px;
   position: absolute;
 }
 #p-copy-right{
@@ -603,7 +635,17 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
   left: 390px;
   top: 1005px;
   position: absolute;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  font-size: 8pt;
+}
+#p-copy-right-page2{
+  width: 300px;
+  height: 15px;
+  left: 390px;
+  top: 1205px;
+  position: absolute;
+  font-family: 'Bebas Neue';
   font-weight: 400;
   font-size: 8pt;
 }
@@ -616,10 +658,17 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
   font-family: 'Avenir Next Condensed';
   font-weight: 400;
   font-size: 7pt;
-
-
 }
-
+#p-designers-page2{
+  width: 500px;
+  height: 15px;
+  left: 320px;
+  top: 1220px;
+  position: absolute;
+  font-family: 'Avenir Next Condensed';
+  font-weight: 400;
+  font-size: 7pt;
+}
 #container-gallery-year{
   width: 276px;
   height: 281px;
@@ -743,9 +792,9 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
 }
 .project-member{
   color: #808080;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Avenir Next Condensed';
   font-weight: 400;
-  font-size: 9pt;
+  font-size: 8pt;
   margin-top: 5pt;
   margin-bottom: 15pt;
   overflow: auto;
@@ -765,14 +814,15 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
   height: 3px;
 }
 #project-detail-text{
-  width: 230px;
+  width: 250px;
   margin-left: 28px;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Avenir Next Condensed';
   font-weight: 400;
   font-size: 10pt;
   color: #999999;
   overflow: auto;
-  height: 80px;
+  height: 280px;
+  text-transform: initial;
 }
 #p-poster-href{
   width: 50px;
@@ -780,6 +830,7 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
   margin-left: 28px;
   margin-top: 10px;
   color: #552d91;
+  font-size: 12pt;
   font-family: "Avenir Next Condensed";
   font-weight: 500;
 }
@@ -790,13 +841,13 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
   cursor:pointer;
   font-family: "Avenir Next Condensed";
   font-weight: 500;
-  font-size: 10pt;
+  font-size: 12pt;
 
 }
 #project-detail-img{
   left: 420px;
   position: absolute;
-  top: 20px;
+  top: 120px;
   width: 325px;
 }
 #projects-link{
@@ -815,7 +866,7 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
   left: 50px;
   position: absolute;
   color: #f7931e;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bebas Neue';
   font-weight: 400;
   font-size: 16pt;
 }
@@ -832,7 +883,7 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
   position: absolute;
   left: 50px;
   color: #662d91;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bebas Neue';
   font-weight: 400;
   font-size: 24pt;
 }
@@ -840,7 +891,7 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
   width: 300px;
   top: 130px;
   position: absolute;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bebas Neue';
   font-weight: 400;
   color:#999999;
   left: 50px;
