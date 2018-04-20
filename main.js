@@ -705,7 +705,6 @@ var el = document.getElementById("triangle-gray2").addEventListener("click", sho
 var el = document.getElementById("project-video-link").addEventListener("click", showProjectVideo,true);
 
 //Set event listener on the close button and "back to projects" under project-video container.
-var el = document.getElementById("projects-link").addEventListener("click", closeProjectVideo,true);
 var el = document.getElementById("close-button").addEventListener("click", closeProjectVideo,true);
 
 project = project20170;
