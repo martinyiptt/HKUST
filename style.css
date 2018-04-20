@@ -72,11 +72,11 @@ body {
 
 #triangle-gray1{
   left: 384px;
-  top: 190px
+  top: 230px
 }
 #triangle-gray2{
   left: 760px;
-  top: 190px;
+  top: 230px;
   transform: scaleX(-1)
 }
 #container-background{
@@ -565,12 +565,12 @@ position: absolute;
 background: white;
 box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 170, 170, 0.75), -2px 0px 5px rgba(170, 170, 170, 0.75);
 }#container-project-video{  
-  width: 390px;
-  height: 595px;
-  top: 530px;
-  left: 95px;
+  width: 375px;
+  height: 500px;
+  top: 625px;
+  left: 101px;
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.92);
+  background-color: rgba(255, 255, 255, 0.97);
   visibility: hidden;
 }
 #container-gallery{
@@ -847,7 +847,7 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
 #project-detail-img{
   left: 420px;
   position: absolute;
-  top: 120px;
+  top: 160px;
   width: 325px;
 }
 #projects-link{
@@ -862,7 +862,7 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
 }
 #video-year{
   width: 250px;
-  top: 30px;
+  top: 5px;
   left: 50px;
   position: absolute;
   color: #f7931e;
@@ -871,7 +871,7 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
   font-size: 16pt;
 }
 #hr-project-video{
-  top: 50px;
+  top: 30px;
   left: 50px;
   position: absolute;
   width: 200px;
@@ -879,17 +879,17 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
   background-color: #f7931e;
 }
 #project-video-name{
-  top: 70px;
+  top: 50px;
   position: absolute;
   left: 50px;
   color: #662d91;
-  font-family: 'Bebas Neue';
+  font-family: 'Avenir Next Condensed';
   font-weight: 400;
   font-size: 24pt;
 }
 #project-video-members{
   width: 230px;
-  top: 130px;
+  top: 100px;
   position: absolute;
   font-family: 'Avenir Next Condensed';
   font-weight: 400;
@@ -905,8 +905,8 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
 }
 #iframe-project-video{
   left: 50px;
-  top: 195px;
+  top: 160px;
   position: absolute;
-  width: 325px;
+  width: 300px;
   height: 280px;
 }
