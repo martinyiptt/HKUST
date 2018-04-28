@@ -35,11 +35,17 @@ Project.prototype.update = function() {
 
 };
 
-var currerntYear = 2017;
+var currentYear = 2017;
 
 // Current Project
 var project;
 
+// image index for the current folder
+var pictureIndex = 1;
+
+
+// Check if there is any new images
+var tester = new Image();
 
 //  var project201xy = new Project("201x","y"," projectName", members","detail","imgSrc","posterSrc", "videoSrc");
 //       x = year;
@@ -404,6 +410,7 @@ function displayProject(evt){
      for(var i = 0; i < projectYear.length; i++){
          projectYear[i].update();
      }
+     pictureIndex = 1;
      displayDefualtProject(year);
 }
 
@@ -418,11 +425,13 @@ function displayDetail(evt){
     var projectId  = projectEvtId.slice(7,8);
    
     //Get the specfic project as an object
-    project = toProject(currerntYear, projectId);
-    console.log(project);
+    project = toProject(currentYear, projectId);
+    //console.log(project);
 
     //Change the selected project's color
     changeProjectColor(projectId);
+
+    pictureIndex = 1;
 
     //Change the detail container's info to the selected project's detail
 
@@ -432,6 +441,7 @@ function displayDetail(evt){
     document.getElementById("project-detail-text").innerHTML = project.detail;
     //Change image
     document.getElementById("project-detail-img").src = project.imgSrc;
+    document.getElementById("project-detail-img-temp").src = project.imgSrc;
      //Change poster's link
     document.getElementById("a-poster-href").href = project.posterSrc;
 
@@ -462,18 +472,21 @@ function displayDefualtProject(year){
     		document.getElementById("iframe-project-video").src = project20170.videoSrc;
     		document.getElementById("project9-name").style.visibility = 'hidden';
             document.getElementById('project9-member').style.visibility = 'hidden';
+            pictureIndex = 1;
     		break;
         case '2016':
             project = project20160;
             document.getElementById("project-detail-name").innerHTML = project20160.projectName;
             document.getElementById("project-detail-text").innerHTML = project20160.detail;
             document.getElementById("project-detail-img").src = project20160.imgSrc;
+            document.getElementById("project-detail-img-temp").src = project20160.imgSrc ;
             document.getElementById("a-poster-href").href = project20160.posterSrc;
             document.getElementById("project-video-name").innerHTML = project20160.projectName;
             document.getElementById("project-video-members").innerHTML = project20160.members;
             document.getElementById("iframe-project-video").src = project20160.videoSrc;
             document.getElementById("project9-name").style.visibility = 'visible';
             document.getElementById('project9-member').style.visibility = 'visible';
+            pictureIndex = 1;
             break;
         case '2015':
             project = project20150;
@@ -486,7 +499,7 @@ function displayDefualtProject(year){
     		document.getElementById("iframe-project-video").src = project20150.videoSrc;
     		document.getElementById("project9-name").style.visibility = 'visible';
             document.getElementById('project9-member').style.visibility = 'visible';
-            
+            pictureIndex = 1;
     		break;
         case '2014':
             project = project20140;
@@ -499,6 +512,8 @@ function displayDefualtProject(year){
     		document.getElementById("iframe-project-video").src = project20140.videoSrc;
     		document.getElementById("project9-name").style.visibility = 'visible';
             document.getElementById('project9-member').style.visibility = 'visible';
+            pictureIndex = 1;
+            break;
             
         //case '2013':
            
@@ -614,19 +629,19 @@ function toProjectsYear(year){
     
     switch (year) {
         case '2017':
-            currerntYear = 2017;
+            currentYear = 2017;
             return projects2017;
         case '2016':
-            currerntYear = 2016;
+            currentYear = 2016;
             return projects2016;
         case '2015':
-            currerntYear = 2015;
+            currentYear = 2015;
             return projects2015;
         case '2014':
-            currerntYear = 2014;
+            currentYear = 2014;
             return projects2014;
         case '2013':
-            currerntYear = 2013;
+            currentYear = 2013;
             return projects2013;
         default:
             return projects2017;
@@ -635,15 +650,116 @@ function toProjectsYear(year){
 
 
 //change project picture to the next one
-function showPreviousPicture(evt){
+async function showPreviousPicture(evt){
+
+	pictureIndex--;
+	sleep(10);
+
+	if (pictureIndex >= 1){
+	var prevImage_url = folderpath + projectFolder + pictureIndex + '.jpg';
+	imgpath = document.getElementById("project-detail-img-temp");
+
+	
+  		document.getElementById("project-detail-img").src = prevImage_url;
+	}
+	
+	else {
+		pictureIndex = 1;
+	}
+
+}
+
+
+
+//change project picture to the next one
+async function showNextPicture(evt){
+
+	folderpath = findPictureFolder();
+	
+	var originalImage_url = project.imgSrc;
+	var image_url = folderpath + projectFolder + pictureIndex + '.jpg';
+	var nextImage_url = folderpath + projectFolder + (pictureIndex + 1) + '.jpg';
+
+
+
+	if (currentYear == 2016) {
+		originalImage_url = folderpath + projectFolder + '1' + '.jpg';
+		
+	}
+
+
+	document.getElementById("project-detail-img-temp").src = nextImage_url;
+	
+	await sleep(10);
+
+	
+	var imgpath = document.getElementById("project-detail-img-temp");
+
+
+
+	if (imgpath.naturalWidth){
+		pictureIndex++;
+  		document.getElementById("project-detail-img").src = nextImage_url;
+	}
+	
+	else {
+		pictureIndex = 1;
+  		document.getElementById("project-detail-img").src = originalImage_url;
+	}
 
 
 }
 
-//change project picture to the next one
-function showNextPicture(evt){
-	var folder = "pic/" + currerntYear + "/" + document.getElementById("project-detail-name").innerHTML;
-	console.log(folder);
+
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+
+
+function findPictureFolder(){
+
+	projectFolder = "";
+	//console.log("pic/" + currentYear + "/" + projectFolder);
+
+	if (currentYear == 2016){
+		switch (project.projectId) {
+	        case 0:
+	            projectFolder = "FI";      
+	            return "pic/" + currentYear + "/" + projectFolder + "/";
+	        case 1:
+	            projectFolder = "E";
+	            return "pic/" + currentYear + "/" + projectFolder + "/" ;
+	        case 2:
+	            projectFolder = "TP";
+	            return "pic/" + currentYear + "/" + projectFolder  + "/";
+	        case 3:
+	            projectFolder = "MO";
+	            return "pic/" + currentYear + "/" + projectFolder + "/";
+	        case 4:
+	            projectFolder = "PT";
+	            return "pic/" + currentYear + "/" + projectFolder + "/";
+	        case 5:
+	            projectFolder = "FD";
+	            return "pic/" + currentYear + "/" + projectFolder + "/";
+	        case 6:
+	            projectFolder = "MM";
+	            return "pic/" + currentYear + "/" + projectFolder + "/";
+	        case 7:
+	            projectFolder = "TMB";
+	            return "pic/" + currentYear + "/" + projectFolder + "/";
+	        case 8:
+	            projectFolder = "B";
+	            return "pic/" + currentYear + "/" + projectFolder + "/";
+	        case 9:
+	            projectFolder = "AT";
+	            return "pic/" + currentYear + "/" + projectFolder + "/";
+	        default:
+	            return "pic/" + currentYear + "/" + projectFolder + "/";
+    	}
+	}
+	return "pic/" + currentYear + "/" + projectFolder ;
 
 }
 
