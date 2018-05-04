@@ -564,8 +564,8 @@ background: white;
 box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 170, 170, 0.75), -2px 0px 5px rgba(170, 170, 170, 0.75);
 }#container-project-video{  
   width: 375px;
-  height: 500px;
-  top: 625px;
+  height: 430px;
+  top: 675px;
   left: 101px;
   position: absolute;
   background-color: rgba(255, 255, 255, 0.97);
@@ -670,7 +670,7 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
 #container-gallery-year{
   width: 276px;
   height: 281px;
-  left: 366px;
+  left: 366.5px;
   top: 366px;
   position: absolute;
   background-color: #F7931E;
@@ -906,8 +906,8 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
 }
 #iframe-project-video{
   left: 50px;
-  top: 160px;
+  top: 150px;
   position: absolute;
   width: 300px;
-  height: 280px;
+  height: 200px;
 }

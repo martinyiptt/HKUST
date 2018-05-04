@@ -798,43 +798,6 @@ function findPictureFolder(){
     	return "pic/" + currentYear + "/" + projectFolder + "/";
 	}
 
-	if (currentYear == 2015){
-		switch (project.projectId) {
-	        case 0:
-	            projectFolder = "IH";      
-	            break;
-	        case 1:
-	            projectFolder = "GMYF";
-	            break;
-	        case 2:
-	            projectFolder = "CF";
-	            break;
-	        case 3:
-	            projectFolder = "M";
-	            break;
-	        case 4:
-	            projectFolder = "W";
-	            break;
-	        case 5:
-	            projectFolder = "POL";
-	            break;
-	        case 6:
-	            projectFolder = "TAF";
-	            break;
-	        case 7:
-	            projectFolder = "VT";
-	            break;
-	        case 8:
-	            projectFolder = "SR";
-	            break;
-	        case 9:
-	            projectFolder = "DD";
-	            break;
-	        default:
-	            return "pic/" + currentYear + "/" + projectFolder + "/";
-    	}
-    	return "pic/" + currentYear + "/" + projectFolder + "/";
-	}
 
 	if (currentYear == 2015){
 		switch (project.projectId) {
@@ -873,6 +836,44 @@ function findPictureFolder(){
     	}
     	return "pic/" + currentYear + "/" + projectFolder + "/";
     }
+
+    if (currentYear == 2014){
+		switch (project.projectId) {
+	        case 0:
+	            projectFolder = "IH";      
+	            break;
+	        case 1:
+	            projectFolder = "GMYF";
+	            break;
+	        case 2:
+	            projectFolder = "CF";
+	            break;
+	        case 3:
+	            projectFolder = "M";
+	            break;
+	        case 4:
+	            projectFolder = "W";
+	            break;
+	        case 5:
+	            projectFolder = "POL";
+	            break;
+	        case 6:
+	            projectFolder = "TAF";
+	            break;
+	        case 7:
+	            projectFolder = "VT";
+	            break;
+	        case 8:
+	            projectFolder = "SR";
+	            break;
+	        case 9:
+	            projectFolder = "DD";
+	            break;
+	        default:
+	            return "pic/" + currentYear + "/" + projectFolder + "/";
+    	}
+    	return "pic/" + currentYear + "/" + projectFolder + "/";
+	}
 	return "pic/" + currentYear + "/" + projectFolder ;
 
 }
