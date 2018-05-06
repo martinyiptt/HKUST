@@ -90,41 +90,41 @@ var project20173 = new Project(2017,3,
                     "Holocup 智能杯子",
                     "CHAN, Hiu Nam (HKUST), WANG, Yalin (HKUST), LI, Yana (CAA), ZHAN, Jie (CAA)", 
                     "People, especially office workers and children, don’t have a regular drinking water habit for sufficient water intake, and our product aims to attract people to drink more water, making the drinking process more interesting, and hence helping people develop a good water drinking habit. In order to make the drinking process interesting, an illusion is integrated into our cup. We utilize the reflection of light, to simulate a 3D holographic image, and the animation of the various marine animal pets collected will appear in the cup. Also, we design to connect the cup with a nurturing game by using Bluetooth, making it available on every phone. The cup, equipped with a weight sensor, will automatically sense and calculate the amount of water that you drunk. The more water you drink, the more complete the pet library.",
-                    "pic/2017/HC/HC1.JPG",
+                    "pic/2017/HC/HC1.jpg",
                     "poster/2017/HC.pdf",
                     "https://www.youtube.com/embed/SMLK5q4Xceg"); // Replace Youtube embed link here inside " ".
 var project20174 = new Project(2017,4,
                     "Cupido 丘比特",
                     "KO, Ching Yuen (HKUST), YANG, Mingyuan (HKUST), NIU, Yifan (CAA), WANG, Hongdou (CAA)","Waiting love is a pair of bracelets made for long-distance lovers. It sends a message about missing each other implicitly.",
-                    "pic/2017/C/C1.JPG",
+                    "pic/2017/C/C1.jpg",
                     "poster/2017/C.pdf",
                     "https://www.youtube.com/embed/u1kQKqdF008"); // Replace Youtube embed link here inside " ".
 var project20175 = new Project(2017,5,
                     "Wolo",
                     "TSANG, Ka Lai (HKUST), YAU, Shuk Kwan (HKUST), LIN, Rong (CAA), WEN, Simei (CAA)",
                     "The product – WOLO consists of a pair of rings, a health detecting band, and a mobile app. The health detecting band is wearable on children while the rings are for parents. The mobile app enables parents to monitor their children’s health status remotely.",
-                    "pic/2017/WL/WL1.JPG",
+                    "pic/2017/WL/WL1.jpg",
                     "poster/2017/WL.pdf",
                     "https://www.youtube.com/embed/5h7lYT-gvao"); // Replace Youtube embed link here inside " ".
 var project20176 = new Project(2017,6,
                     "ARGUS",
                     "CAO, Shaozu (HKUST), PANG, Sui (HKUST), PENG, Bihua (CAA), ZHU, Mengyang (CAA)",
                     "We believe that people should be free from the worry of watching and navigation. We observe an increasing number of people focused on their phones when walking, and they need some warning beforehand to prevent any harm from objects on their path. Instead of advocating them not to use the phone, we take it as a fact and want to figure out the solution. That is how we end up designing a device to detect the environment, and notify the user before potential threats.",
-                    "pic/2017/A/A1.JPG",
+                    "pic/2017/A/A1.jpg",
                     "poster/2017/A.pdf",
                     "https://www.youtube.com/embed/9jHe3hox-YY"); // Replace Youtube embed link here inside " ".
 var project20177 = new Project(2017,7,
                     "Weather Box",
                     "LEE, Geun Hyang (HKUST),FAN, Ka Yi (HKUST), QIAN, Hongxiang (CAA), SHAO, Minghui (CAA), WANG, Xiangli (CAA)",
                     "Weather is important in our daily lives. It affects both our physical well-being and mental health. Research has shown that adverse and unusual weather, climate changes annoy and depress people, and may lead to Seasonal Affective Disorder(SAD). The ‘Weather Box’ fetches and visualizes weather information in real-time to an entertaining LED light show to improve working efficiency.",
-                    "pic/2017/WB/WB1.JPG",
+                    "pic/2017/WB/WB1.jpg",
                     "poster/2017/WB.pdf",
                     "https://www.youtube.com/embed/-BOOx_qic3A"); // Replace Youtube embed link here inside " ".
 var project20178 = new Project(2017,8,
                     "SLight",
                     "LEE, Jae Hyung (HKUST), XU, Jiale (HKUST), WENG, Wuyue (CAA), XIANG, Qingqing (CAA)",
                     "SLight is a spine-like wall lamp that changes its shape according to user’s sitting posture to inform users whether they are sitting in good or bad posture. As SLight is a product that intends to remind people about their posture visually, it is designed as a human spine. Its dimension is 6 cm x 24 cm x 60 cm and it is divided into 26 layers of acrylic, similar to the number of presacral vertebrae, that can move right or left in order to simulate the spinal shape of a person sitting. Additionally, each layer contains 0.6mm thickness of cross-shaped half-transparent acrylic which has a square hole together with LED strip in the middle, 0.2mm thin black rectangular acrylic, and servo motors are placed behind and connected to some layers to generate horizontal movement. By having these structures in the design, SLight can emit light with LEDs on each layer and change the background shape through horizontal movements of the black rectangular acrylic.",
-                    "pic/2017/S/S1.JPG",
+                    "pic/2017/S/S1.jpg",
                     "poster/2017/S.pdf",
                     "https://www.youtube.com/embed/ZTadpgWDZYo"); // Replace Youtube embed link here inside " ".
 
@@ -737,7 +737,7 @@ function findPictureFolder(){
 	            projectFolder = "F";
 	            break;
 	        case 3:
-	            projectFolder = "H";
+	            projectFolder = "HC";
 	            break;
 	        case 4:
 	            projectFolder = "C";
