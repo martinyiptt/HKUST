@@ -446,7 +446,7 @@ var project20136 = new Project(2013,6,
 
 var project20137 = new Project(2013,7,
                     "Mr Balloon",
-                    "Xiong ZENG  (HKUST), Chenggong YIN (HKUST), ZHOU Jing (HKUST), CHEN, Wan (CAA)",
+                    "Xiong ZENG  (HKUST), Chenggong YIN (HKUST), ZHOU Jing (CAA), CHEN, Wan (CAA)",
                     "",
                     "pic/2013/MRB/MRB1.jpg",
                     "poster/2013/MRB.jpg",
@@ -514,6 +514,7 @@ function displayProject(evt){
 	}
 	pictureIndex = 1;
 	displayDefualtProject(year);
+
 }
 
 /*
@@ -645,9 +646,9 @@ function displayDefualtProject(year){
             break;
            
         default:
+        	setPortraitLandscape();
             return projects2017;
     }
-
     setPortraitLandscape();
 
 }
@@ -778,10 +779,11 @@ function toProjectsYear(year){
 }
 
 // set display location for portrait / landscape 
-function setPortraitLandscape(){
+async function setPortraitLandscape(){
 
+	await sleep(10);
 	var img = document.getElementById("project-detail-img");
-	
+
 	if (img.naturalHeight > img.naturalWidth){
 		document.getElementById("project-detail-img").style.top = "5px";
 	}
@@ -1012,6 +1014,46 @@ function findPictureFolder(){
 	            break;
 	        case 9:
 	            projectFolder = "DD";
+	            break;
+	        default:
+	            return "pic/" + currentYear + "/" + projectFolder + "/";
+    	}
+    	return "pic/" + currentYear + "/" + projectFolder + "/";
+	}
+	if (currentYear == 2013){
+		switch (project.projectId) {
+	        case 0:
+	            projectFolder = "GM";      
+	            break;
+	        case 1:
+	            projectFolder = "A";
+	            break;
+	        case 2:
+	            projectFolder = "MB";
+	            break;
+	        case 3:
+	            projectFolder = "TR";
+	            break;
+	        case 4:
+	            projectFolder = "TC";
+	            break;
+	        case 5:
+	            projectFolder = "MMP";
+	            break;
+	        case 6:
+	            projectFolder = "BID";
+	            break;
+	        case 7:
+	            projectFolder = "MRB";
+	            break;
+	        case 8:
+	            projectFolder = "SI";
+	            break;
+	        case 9:
+	            projectFolder = "B";
+	            break;
+	        case 10:
+	            projectFolder = "MTIT";
 	            break;
 	        default:
 	            return "pic/" + currentYear + "/" + projectFolder + "/";
