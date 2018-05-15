@@ -847,6 +847,7 @@ box-shadow: inset 0px 5px 10px rgba(136, 136, 136, 0.44), 5px 5px 5px rgba(170, 
   position: absolute;
   top: 160px;
   width: 325px;
+  object-fit: contain;
 }
 #project-detail-img-temp{
   visibility: hidden;

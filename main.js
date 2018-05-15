@@ -2,6 +2,9 @@
     Author - Martin Yip
              martinyiptt@gmail.com
 
+	Date   - May, 2018
+    Verson 1.4  - Added 2013 projects. Created function setPortraitLandscape()
+
     Date   - April, 2018
     Verson 1.3  - Make "next" nad "previous" buttons work to show more pcitures
 
@@ -380,6 +383,102 @@ var project20149 = new Project(2014,9,
                     "poster/2014/DD.jpg",
                     "https://www.youtube.com/embed/HCDkRV6pTTo"); // Replace Youtube embed link here inside " ".
 
+
+
+
+//2013 Projects
+
+var project20130 = new Project(2013,0,
+                    "GrowMate",
+                    "Hyo Jung CHO (HKUST), Nam Yeon KIM (HKUST), YANG, Yang (CAA), Che Kin CHAN (HKUST)",
+                    "",
+                    "pic/2013/GM/GM1.jpg",
+                    "poster/2013/GM.jpg",
+                    ""); // Replace Youtube embed link here inside " ".
+
+var project20131 = new Project(2013,1,
+                    "Aloha",
+                    "Zhaohua LI (HKUST), Xinwei WAN (HKUST), WANG Zhiang (CAA), ZHANG Ruyu  (CAA)",
+                    "",
+                    "pic/2013/A/A1.jpg",
+                    "poster/2013/A.jpg",
+                    ""); // Replace Youtube embed link here inside " ".
+
+var project20132 = new Project(2013,2,
+                    "Music Box",
+                    "Lu LU (HKUST), QI Chenxi (CAA)",
+                    "",
+                    "pic/2013/MB/MB1.jpg",
+                    "poster/2013/MB.jpg",
+                    ""); // Replace Youtube embed link here inside " ".
+
+var project20133 = new Project(2013,3,
+                    "The Rainbow",
+                    "Wai Chung CHOI (HKUST), WANG Ke (CAA), YANG Qingqing (CAA)",
+                    "",
+                    "pic/2013/TR/TR1.jpg",
+                    "poster/2013/TR.jpg",
+                    ""); // Replace Youtube embed link here inside " ".
+
+var project20134 = new Project(2013,4,
+                    "Travelling Cloud",
+                    "Ho Yin NG (HKUSWT), Shidie CHEN (HKUST), ZHENG Haibin (CAA), XU Lu (CAA)",
+                    "",
+                    "pic/2013/TC/TC1.jpg",
+                    "poster/2013/TC.jpg",
+                    ""); // Replace Youtube embed link here inside " ".
+
+var project20135 = new Project(2013,5,
+                    "Mr & Mrs Potato",
+                    "Hoi Lun LUI (HKUST), Beisheng BAO (HKUST), FU, Peixin (CAA), HU, Jun (CAA)",
+                    "",
+                    "pic/2013/MMP/MMP1.jpg",
+                    "poster/2013/MMP.jpg",
+                    ""); // Replace Youtube embed link here inside " ".
+
+var project20136 = new Project(2013,6,
+                    "Before I die, I want to",
+                    "Siheng JI  (HKUST), HU Hengzhi (CAA), FU Dongting (CAA)",
+                    "",
+                    "pic/2013/BID/BID1.jpg",
+                    "poster/2013/BID.jpg",
+                    ""); // Replace Youtube embed link here inside " ".
+
+var project20137 = new Project(2013,7,
+                    "Mr Balloon",
+                    "Xiong ZENG  (HKUST), Chenggong YIN (HKUST), ZHOU Jing (HKUST), CHEN, Wan (CAA)",
+                    "",
+                    "pic/2013/MRB/MRB1.jpg",
+                    "poster/2013/MRB.jpg",
+                    ""); // Replace Youtube embed link here inside " ".
+
+var project20138 = new Project(20143,8,
+                    "Sound Impressions of HKUST",
+                    "Wenang PAN (HKUST), Jing YU (HKUST), HE, Kan (CAA), OUYANG, Shuangping (CAA)",
+                    "",
+                    "pic/2013/SI/SI1.jpg",
+                    "poster/2013/SI.jpg",
+                    ""); // Replace Youtube embed link here inside " ".
+
+var project20139 = new Project(2013,9,
+                    "Blend",
+                    "Yue Hin Eugene WONG (HKUST), Wenbin WU (HKUST), KUANG Tianqi (CAA), SHI Zhihui (CAA)",
+                    "",
+                    "pic/2013/B/B1.jpg",
+                    "poster/2013/B1.jpg",
+                    ""); // Replace Youtube embed link here inside " ".
+
+var project201310 = new Project(2013,10,
+                    "Make the intangible tangible",
+                    "Chak Pong CHUNG (HKUST), Yang LIU (HKUST), MA, Chuan (CAA), YANG Yang (CAA)",
+                    "",
+                    "pic/2013/MTIT/MTIT1.jpg",
+                    "poster/2013/MTIT1.jpg",
+                    ""); // Replace Youtube embed link here inside " ".
+
+
+
+
 /*
     Add projects to an array. Each array represents a year.
 
@@ -389,7 +488,7 @@ var projects2017 = [project20170,project20171,project20172,project20173,project2
 var projects2016 = [project20160,project20161,project20162,project20163,project20164,project20165,project20166,project20167,project20168,project20169];
 var projects2015 = [project20150,project20151,project20152,project20153,project20154,project20155,project20156,project20157,project20158,project20159];
 var projects2014 = [project20140,project20141,project20142,project20143,project20144,project20145,project20146,project20147,project20148,project20149];
-var projects2013 = [];
+var projects2013 = [project20130,project20131,project20132,project20133,project20134,project20135,project20136,project20137,project20138,project20139,project201310];
 
 
 
@@ -410,11 +509,11 @@ function displayProject(evt){
     document.getElementById("video-year").innerHTML = "Summer " + year;
     changeYearColor(year);
     
-     for(var i = 0; i < projectYear.length; i++){
-         projectYear[i].update();
-     }
-     pictureIndex = 1;
-     displayDefualtProject(year);
+	for(var i = 0; i < projectYear.length; i++){
+	    projectYear[i].update();
+	}
+	pictureIndex = 1;
+	displayDefualtProject(year);
 }
 
 /*
@@ -444,6 +543,7 @@ function displayDetail(evt){
     document.getElementById("project-detail-text").innerHTML = project.detail;
     //Change image
     document.getElementById("project-detail-img").src = project.imgSrc;
+    setPortraitLandscape();
     document.getElementById("project-detail-img-temp").src = project.imgSrc;
      //Change poster's link
     document.getElementById("a-poster-href").href = project.posterSrc;
@@ -454,6 +554,8 @@ function displayDetail(evt){
     document.getElementById("project-video-members").innerHTML = project.members;
      //Change the project video youtube link for the video container.
     document.getElementById("iframe-project-video").src = project.videoSrc;
+
+    setPortraitLandscape();
 }
 
 /*
@@ -475,6 +577,8 @@ function displayDefualtProject(year){
     		document.getElementById("iframe-project-video").src = project20170.videoSrc;
     		document.getElementById("project9-name").style.visibility = 'hidden';
             document.getElementById('project9-member').style.visibility = 'hidden';
+            document.getElementById("project10-name").style.visibility = 'hidden';
+            document.getElementById('project10-member').style.visibility = 'hidden';
             pictureIndex = 1;
     		break;
         case '2016':
@@ -489,6 +593,8 @@ function displayDefualtProject(year){
             document.getElementById("iframe-project-video").src = project20160.videoSrc;
             document.getElementById("project9-name").style.visibility = 'visible';
             document.getElementById('project9-member').style.visibility = 'visible';
+            document.getElementById("project10-name").style.visibility = 'hidden';
+            document.getElementById('project10-member').style.visibility = 'hidden';
             pictureIndex = 1;
             break;
         case '2015':
@@ -502,6 +608,8 @@ function displayDefualtProject(year){
     		document.getElementById("iframe-project-video").src = project20150.videoSrc;
     		document.getElementById("project9-name").style.visibility = 'visible';
             document.getElementById('project9-member').style.visibility = 'visible';
+            document.getElementById("project10-name").style.visibility = 'hidden';
+            document.getElementById('project10-member').style.visibility = 'hidden';
             pictureIndex = 1;
     		break;
         case '2014':
@@ -515,14 +623,32 @@ function displayDefualtProject(year){
     		document.getElementById("iframe-project-video").src = project20140.videoSrc;
     		document.getElementById("project9-name").style.visibility = 'visible';
             document.getElementById('project9-member').style.visibility = 'visible';
+            document.getElementById("project10-name").style.visibility = 'hidden';
+            document.getElementById('project10-member').style.visibility = 'hidden';
             pictureIndex = 1;
             break;
             
-        //case '2013':
+        case '2013':
+        	project = project20130;
+            document.getElementById("project-detail-name").innerHTML = project20130.projectName;
+    		document.getElementById("project-detail-text").innerHTML = project20130.detail;
+    		document.getElementById("project-detail-img").src = project20130.imgSrc;
+    		document.getElementById("a-poster-href").href = project20130.posterSrc;
+    		document.getElementById("project-video-name").innerHTML = project20130.projectName;
+    		document.getElementById("project-video-members").innerHTML = project20130.members;
+    		document.getElementById("iframe-project-video").src = project20130.videoSrc;
+    		document.getElementById("project9-name").style.visibility = 'visible';
+            document.getElementById('project9-member').style.visibility = 'visible';
+            document.getElementById("project10-name").style.visibility = 'visible';
+            document.getElementById('project10-member').style.visibility = 'visible';
+            pictureIndex = 1;
+            break;
            
         default:
             return projects2017;
     }
+
+    setPortraitLandscape();
 
 }
 
@@ -651,6 +777,22 @@ function toProjectsYear(year){
     }
 }
 
+// set display location for portrait / landscape 
+function setPortraitLandscape(){
+
+	var img = document.getElementById("project-detail-img");
+	
+	if (img.naturalHeight > img.naturalWidth){
+		document.getElementById("project-detail-img").style.top = "5px";
+	}
+	
+	else {
+		document.getElementById("project-detail-img").style.top = "160px";
+	}
+
+
+}
+
 
 //change project picture to the next one
 async function showPreviousPicture(evt){
@@ -669,6 +811,7 @@ async function showPreviousPicture(evt){
 	else {
 		pictureIndex = 1;
 	}
+	setPortraitLandscape();
 
 }
 
@@ -703,13 +846,14 @@ async function showNextPicture(evt){
 	if (imgpath.naturalWidth){
 		pictureIndex++;
   		document.getElementById("project-detail-img").src = nextImage_url;
+
 	}
 	
 	else {
 		pictureIndex = 1;
   		document.getElementById("project-detail-img").src = originalImage_url;
 	}
-
+	setPortraitLandscape();
 
 }
 
