@@ -525,7 +525,15 @@ function displayDetail(evt){
 
     //Get project ID 
     var projectEvtId = evt.target.id;
+    
+    console.log("---projectEvtId---");
+    console.log(projectEvtId);
+
     var projectId  = projectEvtId.slice(7,8);
+
+    if (projectEvtId.slice(7,9) == "10") {
+        projectId = 10;
+    }
    
     //Get the specfic project as an object
     project = toProject(currentYear, projectId);
@@ -1083,6 +1091,8 @@ function onCreate(){
     document.getElementById("iframe-project-video").href = project20170.videoSrc;
     document.getElementById("project9-name").style.visibility = 'hidden';
     document.getElementById('project9-member').style.visibility = 'hidden';
+    document.getElementById("project10-name").style.visibility = 'hidden';
+    document.getElementById('project10-member').style.visibility = 'hidden';
 
     
 }
@@ -1112,6 +1122,7 @@ var el = document.getElementById("project6-name").addEventListener("click", disp
 var el = document.getElementById("project7-name").addEventListener("click", displayDetail,true);
 var el = document.getElementById("project8-name").addEventListener("click", displayDetail,true);
 var el = document.getElementById("project9-name").addEventListener("click", displayDetail,true);
+var el = document.getElementById("project10-name").addEventListener("click", displayDetail,true);
 
 //set event lister on arrows for changing picture
 var el = document.getElementById("triangle-gray1").addEventListener("click",showPreviousPicture ,true);
