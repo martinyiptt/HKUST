@@ -526,8 +526,8 @@ function displayDetail(evt){
     //Get project ID 
     var projectEvtId = evt.target.id;
     
-    console.log("---projectEvtId---");
-    console.log(projectEvtId);
+    //console.log("---projectEvtId---");
+    //console.log(projectEvtId);
 
     var projectId  = projectEvtId.slice(7,8);
 
@@ -728,6 +728,7 @@ function changeProjectColor(projectId){
     document.getElementById("project7-name").style.color = "#f7931e";
     document.getElementById("project8-name").style.color = "#f7931e";
     document.getElementById("project9-name").style.color = "#f7931e";
+    document.getElementById("project10-name").style.color = "#f7931e";
     
     
     //set the seleted project to purple
@@ -789,7 +790,7 @@ function toProjectsYear(year){
 // set display location for portrait / landscape 
 async function setPortraitLandscape(){
 
-	await sleep(10);
+	await sleep(100);
 	var img = document.getElementById("project-detail-img");
 
 	if (img.naturalHeight > img.naturalWidth){
