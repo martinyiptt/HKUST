@@ -2,6 +2,10 @@
     Author - Martin Yip
              martinyiptt@gmail.com
 
+
+    Date   - July, 2018
+    Verson 1.5  - Added 2018 projects. Set year 2018 as default
+
 	Date   - May, 2018
     Verson 1.4  - Added 2013 projects. Created function setPortraitLandscape()
 
@@ -41,7 +45,7 @@ Project.prototype.update = function() {
 
 };
 
-var currentYear = 2017;
+var currentYear = 2018;
 
 // Current Project
 var project;
@@ -65,6 +69,81 @@ var tester = new Image();
                     "posterSrc", 
                     "videoSrc"); // Youtube link (embed link)
 */
+
+//2018 Projects
+var project20180 = new Project(2018,0,
+                    "BLURRED",
+                    "Xiang LI (HKUST), LI, Cindy TAO (HKUST), Yiqiao LIU (CAA), Pan LONG (CAA)",
+                    ""
+                    ,"pic/2018/B/B1.jpg",
+                    "poster/2018/B.pdf",
+                    "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
+
+var project20181 = new Project(2018,1,
+                    "Pitpat",
+                    "Tian DONG (HKUST), Hoi Ying YAU (HKUST), Liang DU (CAA), Yishuang CAI (CAA)",
+                    ""
+                    ,"pic/2018/P/P1.jpg",
+                    "poster/2018/P.pdf",
+                    "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
+
+var project20182 = new Project(2018,2,
+                    "SMART-ER",
+                    "Ka Lai OR (HKUST), LI, Chit Wing HO (HKUST), Lu LI (CAA), Weibo CHEN (CAA)",
+                    ""
+                    ,"pic/2018/SE/SE1.jpg",
+                    "poster/2018/SE.pdf",
+                    "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
+var project20183 = new Project(2018,3,
+                    "Life Band",
+                    "Wang Sze CHEUNG (HKUST), LI, Fernando GARCÃ­A ALBERO (HKUST), Xinling LUO (CAA), Ting WEI (CAA)",
+                    ""
+                    ,"pic/2018/LB/LB1.jpg",
+                    "poster/2018/LB.pdf",
+                    "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
+var project20184 = new Project(2018,4,
+                    "Hi！TOOTH",
+                    "Sijia ZHOU (HKUST), Yingwei CHEN (CAA), Yi LU (CAA)",
+                    ""
+                    ,"pic/2018/HT/HT1.jpg",
+                    "poster/2018/HT.pdf",
+                    "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
+var project20185 = new Project(2018,5,
+                    "EMOTION",
+                    "Huicong CAI (HKUST), Xiaoyuan NI (HKUST), Bichen ZHAO (CAA), Qingyang GE (CAA)",
+                    ""
+                    ,"pic/2018/E/E1.jpg",
+                    "poster/2018/E.pdf",
+                    "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
+var project20186 = new Project(2018,6,
+                    "EYE-FEEL",
+                    "Kar Yu WONG (HKUST), Ka Wing LEUNG (HKUST), Jiaxin WANG (CAA), Tianbo JIANG (CAA)",
+                    ""
+                    ,"pic/2018/EF/EF1.jpg",
+                    "poster/2018/EF.pdf",
+                    "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
+var project20187 = new Project(2018,7,
+                    "KNOW ME",
+                    "Iris KONG (HKUST), Junyan WANG (HKUST), Xi LIN (CAA), Dawei PAN (CAA)",
+                    ""
+                    ,"pic/2018/KM/KM1.jpg",
+                    "poster/2018/KM.pdf",
+                    "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
+var project20188 = new Project(2018,8,
+                    "REMEMBER ME",
+                    "Prabhsharan Singh MAMIK (HKUST), Wang Lik WONG (HKUST), Jinghua LIU (CAA), Chaolin LI (CAA)",
+                    ""
+                    ,"pic/2018/RM/RM1.jpg",
+                    "poster/2018/RM.pdf",
+                    "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
+var project20189 = new Project(2018,9,
+                    "Dong Dong Qi",
+                    "Bohuai WU (HKUST), Victor Xiang MAURER (HKUST), You WU (CAA), Qianzhi QIAN (CAA)",
+                    ""
+                    ,"pic/2018/DDQ/DDQ1.jpg",
+                    "poster/2018/DDQ.pdf",
+                    "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
+
 
 
 //2017 Projects
@@ -484,6 +563,7 @@ var project201310 = new Project(2013,10,
 
     projects201x = [project201x0,project201x1,project201x2,project201x3,project201x4,project201x5,project201x6,project201x7,project201x8];
 */
+var projects2018 = [project20180,project20181,project20182,project20183,project20184,project20185,project20186,project20187,project20188,project20189];
 var projects2017 = [project20170,project20171,project20172,project20173,project20174,project20175,project20176,project20177,project20178];
 var projects2016 = [project20160,project20161,project20162,project20163,project20164,project20165,project20166,project20167,project20168,project20169];
 var projects2015 = [project20150,project20151,project20152,project20153,project20154,project20155,project20156,project20157,project20158,project20159];
@@ -575,6 +655,22 @@ function displayDefualtProject(year){
     changeProjectColor(0);
 
      switch (year) {
+         case '2018':
+            project = project20180;
+            document.getElementById("project-detail-name").innerHTML = project20180.projectName;
+            document.getElementById("project-detail-text").innerHTML = project20180.detail;
+            document.getElementById("project-detail-img").src = project20180.imgSrc;
+            document.getElementById("a-poster-href").href = project20180.posterSrc;
+            document.getElementById("project-video-name").innerHTML = project20180.projectName;
+            document.getElementById("project-video-members").innerHTML = project20180.members;
+            document.getElementById("iframe-project-video").src = project20180.videoSrc;
+            document.getElementById("project9-name").style.visibility = 'visible';
+            document.getElementById('project9-member').style.visibility = 'visible';
+            document.getElementById("project10-name").style.visibility = 'hidden';
+            document.getElementById('project10-member').style.visibility = 'hidden';
+            pictureIndex = 1;
+            break;
+
         case '2017':
             project = project20170;
             document.getElementById("project-detail-name").innerHTML = project20170.projectName;
@@ -655,7 +751,7 @@ function displayDefualtProject(year){
            
         default:
         	setPortraitLandscape();
-            return projects2017;
+            return projects2018;
     }
     setPortraitLandscape();
 
@@ -697,6 +793,7 @@ function changeYearColor(year){
     */
    
     //set all year to the original color
+    document.getElementById("summer2018").style.color = "#655500";
     document.getElementById("summer2017").style.color = "#655500";
     document.getElementById("summer2016").style.color = "#655500";
     document.getElementById("summer2015").style.color = "#655500";
@@ -745,6 +842,8 @@ function changeProjectColor(projectId){
 function toProject(year,projectId){
  
     switch (year) {
+        case 2018:
+            return projects2018[projectId];
         case 2017:
             return projects2017[projectId];
         case 2016:
@@ -756,7 +855,7 @@ function toProject(year,projectId){
         case 2013:
             return projects2013[projectId];
         default:
-            return projects2017[projectId];
+            return projects2018[projectId];
     }
 }
 
@@ -767,6 +866,9 @@ function toProject(year,projectId){
 function toProjectsYear(year){
     
     switch (year) {
+        case '2018':
+            currentYear = 2018;
+            return projects2018;
         case '2017':
             currentYear = 2017;
             return projects2017;
@@ -783,7 +885,7 @@ function toProjectsYear(year){
             currentYear = 2013;
             return projects2013;
         default:
-            return projects2017;
+            return projects2018;
     }
 }
 
@@ -880,6 +982,41 @@ function findPictureFolder(){
 
 	projectFolder = "";
 	//console.log("pic/" + currentYear + "/" + projectFolder);
+	if (currentYear == 2018){
+		switch (project.projectId) {
+	        case 0:
+	            projectFolder = "B";      
+	            break;
+	        case 1:
+	            projectFolder = "P";
+	            break;
+	        case 2:
+	            projectFolder = "SE";
+	            break;
+	        case 3:
+	            projectFolder = "LB";
+	            break;
+	        case 4:
+	            projectFolder = "HT";
+	            break;
+	        case 5:
+	            projectFolder = "E";
+	            break;
+	        case 6:
+	            projectFolder = "EF";
+	            break;
+	        case 7:
+	            projectFolder = "RM";
+	            break;
+	        case 8:
+	            projectFolder = "DDQ";
+	            break;
+	        default:
+	            return "pic/" + currentYear + "/" + projectFolder + "/";
+    	}
+    	return "pic/" + currentYear + "/" + projectFolder + "/";
+	}
+
 	if (currentYear == 2017){
 		switch (project.projectId) {
 	        case 0:
@@ -1077,24 +1214,24 @@ function findPictureFolder(){
 //display 2017 projects first
 function onCreate(){
     
-    changeYearColor(2017);
-    for(var i = 0; i < projects2017.length; i++){
-        projects2017[i].update();
+    changeYearColor(2018);
+    for(var i = 0; i < projects2018.length; i++){
+        projects2018[i].update();
      }
 
     changeProjectColor(0);
-    document.getElementById("project-detail-name").innerHTML = project20170.projectName;
-    document.getElementById("project-detail-text").innerHTML = project20170.detail;
-    document.getElementById("project-detail-img").src = project20170.imgSrc;
-    document.getElementById("a-poster-href").href = project20170.posterSrc;
-    document.getElementById("project-video-name").innerHTML = project20170.projectName;
-    document.getElementById("project-video-members").innerHTML = project20170.members;
-    document.getElementById("iframe-project-video").href = project20170.videoSrc;
-    document.getElementById("project9-name").style.visibility = 'hidden';
-    document.getElementById('project9-member').style.visibility = 'hidden';
+    document.getElementById("project-detail-name").innerHTML = project20180.projectName;
+    document.getElementById("project-detail-text").innerHTML = project20180.detail;
+    document.getElementById("project-detail-img").src = project20180.imgSrc;
+    document.getElementById("a-poster-href").href = project20180.posterSrc;
+    document.getElementById("project-video-name").innerHTML = project20180.projectName;
+    document.getElementById("project-video-members").innerHTML = project20180.members;
+    document.getElementById("iframe-project-video").href = project20180.videoSrc;
+    document.getElementById("project9-name").style.visibility = 'visible';
+    document.getElementById('project9-member').style.visibility = 'visible';
     document.getElementById("project10-name").style.visibility = 'hidden';
     document.getElementById('project10-member').style.visibility = 'hidden';
-
+    setPortraitLandscape();
     
 }
 
@@ -1106,6 +1243,7 @@ function init(){
 onCreate();
 
 //Set event listener the courses for each year.
+var el = document.getElementById("summer2018").addEventListener("click", displayProject,true);
 var el = document.getElementById("summer2017").addEventListener("click", displayProject,true);
 var el = document.getElementById("summer2016").addEventListener("click", displayProject,true);
 var el = document.getElementById("summer2015").addEventListener("click", displayProject,true);
@@ -1136,6 +1274,6 @@ var el = document.getElementById("project-video-link").addEventListener("click",
 //Set event listener on the close button and "back to projects" under project-video container.
 var el = document.getElementById("close-button").addEventListener("click", closeProjectVideo,true);
 
-project = project20170;
+project = project20180;
     
 }
