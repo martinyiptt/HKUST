@@ -1006,9 +1006,12 @@ function findPictureFolder(){
 	            projectFolder = "EF";
 	            break;
 	        case 7:
-	            projectFolder = "RM";
+	            projectFolder = "KM";
 	            break;
 	        case 8:
+	            projectFolder = "RM";
+	            break;
+	        case 9:
 	            projectFolder = "DDQ";
 	            break;
 	        default:
