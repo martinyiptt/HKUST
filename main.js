@@ -74,7 +74,7 @@ var tester = new Image();
 var project20180 = new Project(2018,0,
                     "BLURRED",
                     "Xiang LI (HKUST), LI, Cindy TAO (HKUST), Yiqiao LIU (CAA), Pan LONG (CAA)",
-                    ""
+                    "Many smokers are unaware of how far smoke spreads, thus affecting others who live in the same house.  Instead of asking people to quit smoking, we wanted to make an impact on their emotions to make them quit.  We believed that “bringing-in” people that smokers cared, like their loved ones, would be very powerful and emotional. We used the Tyndall effect as vision affects emotions more compared to other senses most of the time. A picture of their family or baby on the glass cylinder together with the dramatic visual of how smoke is inhaled gives a more powerful warning than just labeling cigarette packs. 我们试图解决的问题是很多经常在家吸烟的人根本没有意识到二手烟对家庭成员的危害，尤其是对免疫力较弱的婴儿。我们希望我们的产品除了强调吸烟对吸烟者自身的影响外，还能提醒吸烟者他们关心的人，比如爱人和孩子会因他的行为受到伤害。我们决定靠丁达尔效应来显示烟雾，提供视觉上的冲击，并在烟雾缭绕中展示吸烟者的家人或孩子的照片，以向吸烟者提供更有力的警示，告知他们亲人的健康可能受到威胁。"
                     ,"pic/2018/B/B1.jpg",
                     "poster/2018/B.pdf",
                     "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
@@ -82,64 +82,64 @@ var project20180 = new Project(2018,0,
 var project20181 = new Project(2018,1,
                     "Pitpat",
                     "Tian DONG (HKUST), Hoi Ying YAU (HKUST), Liang DU (CAA), Yishuang CAI (CAA)",
-                    ""
-                    ,"pic/2018/P/P1.jpg",
+                    "A bracelet that encompasses lovers’ care for each other’s safety and longing to be connected by automating the transmission of emergency signals when necessary and introducing a more accessible way of expressing love through heart beats. Instead of relying on texting or video calls especially when there is very limited time, our group decided to enable connections between couples to be done through feeling each other’s pulse whenever desired. Connecting with each other is easy, a simple press on the bracelet, such that it would not be intrusive to one's’ daily life, but still be able to show each other’s “presence”.我们是从自身经历及访问中得出对安全感及爱人之间的联系议题的关注。受访人士里有些表示会在夜行时预先输入紧急电话；也有的安装能每隔一段时间询问用户是否安全的软件；有些更随身带备胡椒喷雾。",
+                    "pic/2018/P/P1.jpg",
                     "poster/2018/P.pdf",
                     "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
 
 var project20182 = new Project(2018,2,
                     "SMART-ER",
                     "Ka Lai OR (HKUST), LI, Chit Wing HO (HKUST), Lu LI (CAA), Weibo CHEN (CAA)",
-                    ""
+                    "There are numerous news briefings of children taken to hospitals after swallowing various objects. One reason is that children aged 1 to 3 years old cannot identify what is not edible.  Besides, it is not easy to monitor the children round the clock. Therefore, we developed a toy for parents and children to play with so that children can distinguish edible and inedible objects in  a fun and interactive way. 有關兒童因誤食硬物而入院的新聞多不勝數，誤食硬物有可能令兒童窒息或中毒，後果不堪設想。這些意外常於一至三歲兒童身上發生，主因是該階段的兒童尚未懂得分辨物件可否食用。 當小孩嘗試把東西放進口裡時，父母大多會透過責罵﹑拍打小孩的手來表達「這是不對的」的訊息。然而，此舉會讓小孩子不高興，亦有損親子關係，無法有效教導他們。另外，為了避免小孩誤吞異物，父母須全天候看管著小孩，這使照顧小孩的父母更加身心疲累，因為他們時刻都必須提高警覺。因此，我們決定設計一件玩具好讓父母能以更生動有趣﹑互動性高的方法教育小朋友分辨食物與非食物。"
                     ,"pic/2018/SE/SE1.jpg",
                     "poster/2018/SE.pdf",
                     "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
 var project20183 = new Project(2018,3,
                     "Life Band",
                     "Wang Sze CHEUNG (HKUST), LI, Fernando GARCÃ­A ALBERO (HKUST), Xinling LUO (CAA), Ting WEI (CAA)",
-                    ""
+                    "Lifeband is a smart-band designed to safeguard the well-being of those suffering from underlying medical conditions; it is a product specifically crafted to assist people seamlessly. Lifeband comprises two bands, in the interest of being able to adjust each band to the specific user, and also as a result of the technical feasibility of doing so. The “patient” band, is intended for the user with an underlying medical condition, and includes the most ambitious technological elements in a most discreet and elegant casing. The other is intended for the family members of the “patient”, and follows a similar elegant design in a smaller size."
                     ,"pic/2018/LB/LB1.jpg",
                     "poster/2018/LB.pdf",
                     "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
 var project20184 = new Project(2018,4,
                     "Hi！TOOTH",
                     "Sijia ZHOU (HKUST), Yingwei CHEN (CAA), Yi LU (CAA)",
-                    ""
+                    "Children tend to have high sugar intake, poor self-cleaning and create conditions for food retention and bacterial reproduction in their mouth. In addition, children's teeth have poor calcification causing easy breakdown of their teeth.  So it is particularly important that children brush their teeth well. This is a smart toothbrush for a child that makes brushing teeth a joy through fun and interactive games. The purpose is to encourage children to actively brush their teeth to prevent cavities and gradually develop good brushing habits."
                     ,"pic/2018/HT/HT1.jpg",
                     "poster/2018/HT.pdf",
                     "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
 var project20185 = new Project(2018,5,
-                    "EMOTION",
+                    "ARTEMIS",
                     "Huicong CAI (HKUST), Xiaoyuan NI (HKUST), Bichen ZHAO (CAA), Qingyang GE (CAA)",
-                    ""
+                    "We hope to improve relationship between parents and us. Many a times we hesitate to talk to our parents due to a lack of opportunity and topics for a conversation.  In fact, when we are about to call them, we worry whether it is strange to show care to our parents all of a sudden.  Instead, we decided to make a device that allows parents and children to exchange their emotions on a daily basis. We used the weather as our medium to express the emotion. A “weather” report will also show the history of each other’s emotion over 5 days, to make it natural to talk and care for each other when his/her emotion is down."
                     ,"pic/2018/E/E1.jpg",
                     "poster/2018/E.pdf",
                     "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
 var project20186 = new Project(2018,6,
                     "EYE-FEEL",
                     "Kar Yu WONG (HKUST), Ka Wing LEUNG (HKUST), Jiaxin WANG (CAA), Tianbo JIANG (CAA)",
-                    ""
+                    "Eye-Feel is a dynamic three-dimensional surface that renders digital information and portray it physically. Targeted at the visually impaired and the blind, Eye-Feel aims to reduce the communication barrier due to lack of sight by displaying ‘touchable’ facial expressions. The vision of Eye-Feel is to allow the visually impaired and the blind to communicate on an emotional level to enhance and encourage communication with sighted people. Eye-Feel hopes to trigger the emotions of blind people by allowing them to feel the emotions of others. The mechanism of Eye-Feel consists of 100 free-form sliding motors that individually adjusts its height according to the image it has received. Eye-Feel是一個動態的三維表面，可以呈現影像或圖形，旨在通過顯示“可觸摸”的面部表情來減少由於缺乏視力而導致的溝通障礙。針對視障人士和盲人，Eye-Feel可以在不同情恍下轉換用途，但我們決定專注於顯示面部表情，因為它是雙向溝通的重要元素，但視障者和盲人卻無法接觸這類信息.Eye-Feel的願景是讓視障者和盲人在情感層面上進行交流，以增強和鼓勵與有視力的人交流。"
                     ,"pic/2018/EF/EF1.jpg",
                     "poster/2018/EF.pdf",
                     "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
 var project20187 = new Project(2018,7,
                     "KNOW ME",
                     "Iris KONG (HKUST), Junyan WANG (HKUST), Xi LIN (CAA), Dawei PAN (CAA)",
-                    ""
+                    "Sudden infant death syndrome (SIDS), is a leading cause of death of babies under one. The risk of SIDS can be greatly reduced by understanding the basic causes. Babies younger than 1 year should be placed on their backs to sleep — never face down or on their stomachs or on their sides. Sleeping on the stomach or side increases the risk for SIDS.  Our monitor has three different states. When the baby is moving, the light is yellow. When the baby cries or makes a significant amount of noise for over 5 seconds, the light will be blue. These two functions are detected through a sensor in the Crib. When the baby is sleeping on their side or face down, the wearable sends a signal to the monitor, the light becomes red and sounds the alarm. This warns the baby’s caregiver to check that the baby is not at risk of suffocation.-婴儿猝死症 婴儿猝死症是婴儿在无征兆的情况下突然死亡，是1个月至1岁之间的婴儿最常见的死因，常发于婴儿睡眠时。即便如此，让婴儿保持仰卧姿势——不要脸朝下和趴着睡——可以有效减少婴儿猝死症的发生。这是我们为指示灯设计红灯警报的缘由。指示灯可以监测婴儿的三种状态。当婴儿在移动时，黄灯亮；婴儿哭泣或在5秒内连续发出较大的声音时，蓝灯亮。这两种监测功能由婴儿床上方的传感器实现。当婴儿侧睡或面朝下时，红灯亮，并且婴儿可穿戴设备会触发指示灯中的警报，以提醒婴儿照看者此时婴儿处于窒息或猝死的风险中。"
                     ,"pic/2018/KM/KM1.jpg",
                     "poster/2018/KM.pdf",
                     "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
 var project20188 = new Project(2018,8,
                     "REMEMBER ME",
                     "Prabhsharan Singh MAMIK (HKUST), Wang Lik WONG (HKUST), Jinghua LIU (CAA), Chaolin LI (CAA)",
-                    ""
+                    "This project was inspired by the quote in the Disney Movie, COCO that said “When there’s no one left in the living world who remembers you, you disappear from this world. We call it the Final Death”.  Another inspiration is the physical medium that we use to store our memories. Photographic paper gets worn-out easily and becomes yellowish over time and the information is always limited to a 2D format. The consequence of these problems is that when people get older they have no means to show their past life to the next generation, either because of not taking enough photographs or the photos were misplaced or forgotten.    Having identified these problems, our solution was to build a device that can display the environment in 3D easily and a means to store the information in a centralized way. 我們的靈感是來自一套電影叫可可夜總會裡面其中一句話 真正的死亡是在世的人都把你存在忘掉 同時我們亦發現 用來儲存相片的相片紙 容易隨時間變黃及破爛 然而所存放的資訊只能以二維影像存在。 所以當我們 變老的時候 沒有方法可以向我們下一代傳承我嘅過往生活 因為我們沒有在我們年輕時候拍攝足夠的影像或丟失。所以我們的解決方案就是建立一個可以容易 展示拍攝 3d影像 的裝置並且可以將我們的資訊有效地整齊地處理及儲存"
                     ,"pic/2018/RM/RM1.jpg",
                     "poster/2018/RM.pdf",
                     "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
 var project20189 = new Project(2018,9,
                     "Dong Dong Qi",
                     "Bohuai WU (HKUST), Victor Xiang MAURER (HKUST), You WU (CAA), Qianzhi QIAN (CAA)",
-                    ""
+                    "Feel stressed but do not want to share with families, feel lonely but there is no one to talk, feel unhappy but stay alone? At times, people may not really need communication. At other times getting some support from others will help release the pressure.  We would like to use a physical means that is simple, but which can show the interaction between people and strangers or family. We try to use a way other than a smart phone application to connect each other and let them feel a kind of real physical connection with others. We like to build the connection having everyone’s curiosity. Finally, after rendering the required support, they can show their concern not because they want to play a game but because they really care about others. 有压力无法让家人分担，孤寂时无人来海阔天空，低落时只能独自站立。总有一个时刻人们仅希望得到他人的支持去释放压力而并非一定与他人谈天说地。我们想要用一种物理的简单方式去表达人与陌生人与家人的互动。我们尝试有一种全新的交互方式而不是手机应用去连接人与人，让他们确实地得到一种感受而不是网络的数据。我们想要利用人们的兴趣去建立人与人之间的联系，从而使得最终人们因关心而关爱，而非游戏。"
                     ,"pic/2018/DDQ/DDQ1.jpg",
                     "poster/2018/DDQ.pdf",
                     "https://www.youtube.com/embed/_USYhBOglNQ"); // Replace Youtube embed link here inside " ".
